@@ -1,0 +1,33 @@
+2026-05-22T16:01:54.274Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T16:01:54.277Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T16:01:54.281Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-22T16:02:20.815Z INFO webdriver: Retrying 1/3
+2026-05-22T16:02:20.815Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-22T16:02:25.883Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T16:02:25.884Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12/element
+2026-05-22T16:02:25.885Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T16:02:25.984Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-09bd-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-09bd-ffff-ffff00000013'
+}
+2026-05-22T16:02:25.997Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-09bd-ffff-ffff00000013")
+2026-05-22T16:02:25.999Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12/element/00000000-0000-09bd-ffff-ffff00000013/displayed
+2026-05-22T16:02:26.029Z INFO webdriver: RESULT true
+2026-05-22T16:02:26.030Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T16:02:26.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12/element
+2026-05-22T16:02:26.031Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T16:02:26.075Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-09bd-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-09bd-ffff-ffff00000013'
+}
+2026-05-22T16:02:26.079Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-09bd-ffff-ffff00000013")
+2026-05-22T16:02:26.080Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12/element/00000000-0000-09bd-ffff-ffff00000013/displayed
+2026-05-22T16:02:26.119Z INFO webdriver: RESULT true
+2026-05-22T16:02:26.120Z INFO webdriver: COMMAND elementClick("00000000-0000-09bd-ffff-ffff00000013")
+2026-05-22T16:02:26.120Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12/element/00000000-0000-09bd-ffff-ffff00000013/click
+2026-05-22T16:02:26.120Z INFO webdriver: DATA {}
+2026-05-22T16:02:27.116Z INFO webdriver: RESULT null
+2026-05-22T16:02:27.118Z INFO webdriver: COMMAND deleteSession()
+2026-05-22T16:02:27.120Z INFO webdriver: [DELETE] http://127.0.0.1:4723/session/5f7fc8f7-a4b9-4aa1-a4f0-d30c5c64af12
+2026-05-22T16:02:27.623Z INFO webdriver: RESULT null

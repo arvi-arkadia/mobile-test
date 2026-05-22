@@ -1,0 +1,17 @@
+2026-05-22T16:54:39.801Z WARN webdriver: WebDriverError: Cannot start the 'com.saucelabs.mydemoapp.android' application. Consider checking the driver's troubleshooting documentation. Original error: 'com.saucelabs.mydemoapp.android.view.activities.SplashActivity' never started. Consider checking the driver's troubleshooting documentation. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T16:55:36.542Z WARN webdriver: WebDriverError: The following required parameter is missing: ["appId"]
+Known required parameters are: ["appId"]
+Known optional parameters are: ["options"]
+You have provided none when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:55:37.057Z WARN webdriver: WebDriverError: The following required parameter is missing: ["appId"]
+Known required parameters are: ["appId"]
+Known optional parameters are: ["options"]
+You have provided none when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:55:38.080Z WARN webdriver: WebDriverError: The following required parameter is missing: ["appId"]
+Known required parameters are: ["appId"]
+Known optional parameters are: ["options"]
+You have provided none when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:55:38.098Z ERROR webdriver: WebDriverError: The following required parameter is missing: ["appId"]
+Known required parameters are: ["appId"]
+Known optional parameters are: ["options"]
+You have provided none when running "appium/device/terminate_app" with method "POST"

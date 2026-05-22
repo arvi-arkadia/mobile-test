@@ -1,0 +1,9 @@
+2026-05-22T13:55:47.426Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T13:55:47.432Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T13:55:47.441Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-22T13:55:48.270Z INFO webdriver: Retrying 1/3
+2026-05-22T13:55:48.270Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-22T13:55:49.646Z INFO webdriver: Retrying 2/3
+2026-05-22T13:55:49.647Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-22T13:55:51.344Z INFO webdriver: Retrying 3/3
+2026-05-22T13:55:51.344Z INFO webdriver: [POST] http://127.0.0.1:4723/session
