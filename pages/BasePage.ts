@@ -33,7 +33,7 @@ export default class BasePage {
     async isPresent(locator: string){
       const element = await this.driver.$(locator);
       await element.waitForDisplayed({
-        timeout: 10000
+        timeout: 15000
       });
     }
 
@@ -53,4 +53,11 @@ export default class BasePage {
       expect(await element.getText()).toBe(text);
     }
 
+    async closeApp() {
+
+      const currentPackage = await this.driver.getCurrentPackage();
+      // await this.driver.deleteSession();
+      await this.driver.terminateApp(currentPackage);
+    }
+    
   }

@@ -1,0 +1,85 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: android\TC-002.spec.ts >> Guest Access
+- Location: tests\android\TC-002.spec.ts:10:5
+
+# Error details
+
+```
+Error: waitUntil condition failed with the following reason: WebDriverError: 'GET /element/00000000-0000-0a70-ffff-ffff0000001e/attribute/displayed' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element/00000000-0000-0a70-ffff-ffff0000001e/displayed" with method "GET"
+```
+
+# Test source
+
+```ts
+  1  | import { expect } from '@playwright/test';
+  2  | 
+  3  | export default class BasePage {
+  4  | 
+  5  |     driver: any;
+  6  |   
+  7  |     constructor(driver: any) {
+  8  |       this.driver = driver;
+  9  |     }
+  10 |   
+  11 |     async click(locator: string) {
+  12 |   
+  13 |       const element = await this.driver.$(locator);
+  14 |   
+  15 |       await element.waitForDisplayed({
+  16 |         timeout: 10000
+  17 |       });
+  18 |   
+  19 |       await element.click();
+  20 |     }
+  21 |   
+  22 |     async type(locator: string, text: string) {
+  23 |   
+  24 |       const element = await this.driver.$(locator);
+  25 |   
+  26 |       await element.waitForDisplayed({
+  27 |         timeout: 10000
+  28 |       });
+  29 |   
+  30 |       await element.setValue(text);
+  31 |     }
+  32 |     
+  33 |     async isPresent(locator: string){
+  34 |       const element = await this.driver.$(locator);
+> 35 |       await element.waitForDisplayed({
+     |       ^ Error: waitUntil condition failed with the following reason: WebDriverError: 'GET /element/00000000-0000-0a70-ffff-ffff0000001e/attribute/displayed' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element/00000000-0000-0a70-ffff-ffff0000001e/displayed" with method "GET"
+  36 |         timeout: 15000
+  37 |       });
+  38 |     }
+  39 | 
+  40 |     async isDisplayed(locator: string) {
+  41 |   
+  42 |       const element = await this.driver.$(locator);
+  43 |   
+  44 |       return await element.isDisplayed();
+  45 |     }
+  46 | 
+  47 |     async isTextEqual(locator: string, text: string){
+  48 |       const element = await this.driver.$(locator);
+  49 |       await element.waitForDisplayed({
+  50 |         timeout: 10000
+  51 |       });
+  52 |       // await element.getText();
+  53 |       expect(await element.getText()).toBe(text);
+  54 |     }
+  55 | 
+  56 |     async closeApp() {
+  57 | 
+  58 |       const currentPackage = await this.driver.getCurrentPackage();
+  59 |       await this.driver.deleteSession();
+  60 |       // await this.driver.terminateApp(currentPackage);
+  61 |     }
+  62 |     
+  63 |   }
+```

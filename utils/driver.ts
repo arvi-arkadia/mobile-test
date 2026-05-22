@@ -23,8 +23,12 @@ export async function createDriver() {
       'appium:app': 'C:/Code/Github/mobile-test/apk/demo.apk',
 
       'appium:autoGrantPermissions': true,
-
-      'appium:noReset': true
+      
+      'appium:newCommandTimeout': 300,
+      'appium:uiautomator2ServerLaunchTimeout': 120000,
+      'appium:adbExecTimeout': 120000,
+      'appium:androidInstallTimeout': 120000,
+      'appium:disableWindowAnimation': true
     }
   });
 

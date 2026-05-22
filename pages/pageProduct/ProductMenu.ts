@@ -42,6 +42,13 @@ export default class ProductMenu extends BasePage{
         console.log("Clicked btn login")
     }
     async verifyProductMenu(){
+        await this.isPresent(this.logoMenu);
+        await this.isPresent(this.txtProduct);
+        await this.isPresent(this.btnBurgerMenu);
+        await this.isPresent(this.btnCart);
+        await this.isPresent(this.btnSort);
+        await this.isPresent(this.productList);
+
         await this.isDisplayed(this.logoMenu);
         await this.isTextEqual(this.txtProduct,'Products')
         await this.isDisplayed(this.btnBurgerMenu)
@@ -52,6 +59,18 @@ export default class ProductMenu extends BasePage{
     }
 
     async verifyDrawerMenuBeforeLogin(){
+        await this.isPresent(this.itemCatalog);
+        await this.isPresent(this.itemWebView);
+        await this.isPresent(this.itemQRCode);
+        await this.isPresent(this.itemGeoLoc);
+        await this.isPresent(this.itemDrawing);
+        await this.isPresent(this.itemAbout);
+        await this.isPresent(this.itemResetApp);
+        await this.isPresent(this.itemFingerPrint);
+        await this.isPresent(this.itemVirtualUSB);
+        await this.isPresent(this.itemCrashApp);
+        await this.isPresent(this.itemLogIn);
+
         await this.isDisplayed(this.itemCatalog);
         await this.isDisplayed(this.itemWebView);
         await this.isDisplayed(this.itemQRCode);
@@ -66,6 +85,18 @@ export default class ProductMenu extends BasePage{
         console.log("All element all present on drawer screen")
     }
     async verifyDrawerMenuAfterLogin(){
+        await this.isPresent(this.itemCatalog);
+        await this.isPresent(this.itemWebView);
+        await this.isPresent(this.itemQRCode);
+        await this.isPresent(this.itemGeoLoc);
+        await this.isPresent(this.itemDrawing);
+        await this.isPresent(this.itemAbout);
+        await this.isPresent(this.itemResetApp);
+        await this.isPresent(this.itemFingerPrint);
+        await this.isPresent(this.itemVirtualUSB);
+        await this.isPresent(this.itemCrashApp);
+        await this.isPresent(this.itemLogOut);
+
         await this.isDisplayed(this.itemCatalog);
         await this.isDisplayed(this.itemWebView);
         await this.isDisplayed(this.itemQRCode);
@@ -81,7 +112,8 @@ export default class ProductMenu extends BasePage{
     }
    
     async getAllProductItems() {
-
+        await this.isPresent(this.scrollView);
+        
         const scrollView = await this.driver.$(this.scrollView);
 
         const productList: Map<string, any>[] = [];
@@ -163,14 +195,21 @@ export default class ProductMenu extends BasePage{
           }
     
           // scroll down
-          canScroll = await this.driver.execute(
-            'mobile: scrollGesture',
-            {
-              elementId: await scrollView.elementId,
-              direction: 'down',
-              percent: 0.8
-            }
-          );
+
+            canScroll = await this.driver.execute(
+              'mobile: scrollGesture',
+              {
+                left: 100,
+                top: 300,
+                width: 800,
+                height: 1400,
+                direction: 'down',
+                percent: 0.7
+              }
+            );
+            
+            await this.driver.pause(1500);
+
         }
     
         return productList;
