@@ -20,7 +20,7 @@ export async function createDriver() {
      
       "appium:udid": "13355450",
 
-      'appium:app': 'C:/Code/Github/mobile-test/apk/demo.apk',
+      'appium:app': './apk/demo.apk',
 
       'appium:autoGrantPermissions': true,
       
