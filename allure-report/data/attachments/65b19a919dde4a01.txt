@@ -1,0 +1,626 @@
+2026-05-23T00:46:31.486Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-23T00:46:31.489Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-23T00:46:31.494Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-23T00:46:38.083Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-23T00:46:38.084Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:38.084Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-23T00:46:38.531Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:38.545Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-23T00:46:38.545Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:38.546Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-23T00:46:39.424Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff0000001a',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff0000001a'
+}
+2026-05-23T00:46:39.431Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff0000001a")
+2026-05-23T00:46:39.432Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000001a/displayed
+2026-05-23T00:46:39.936Z INFO webdriver: RESULT true
+2026-05-23T00:46:39.937Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-23T00:46:39.937Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:39.938Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-23T00:46:39.982Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff0000001e',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff0000001e'
+}
+2026-05-23T00:46:39.987Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff0000001e")
+2026-05-23T00:46:39.987Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000001e/displayed
+2026-05-23T00:46:40.008Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.008Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T00:46:40.009Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.009Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T00:46:40.038Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000013'
+}
+2026-05-23T00:46:40.043Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000013")
+2026-05-23T00:46:40.043Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000013/displayed
+2026-05-23T00:46:40.063Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.063Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/cartRL")
+2026-05-23T00:46:40.063Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.063Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/cartRL"}
+2026-05-23T00:46:40.102Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000015',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000015'
+}
+2026-05-23T00:46:40.105Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000015")
+2026-05-23T00:46:40.106Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000015/displayed
+2026-05-23T00:46:40.126Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.127Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:40.127Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.127Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:40.158Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:40.161Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:40.161Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:40.190Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.190Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productRV")
+2026-05-23T00:46:40.190Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.190Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productRV"}
+2026-05-23T00:46:40.345Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000021',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000021'
+}
+2026-05-23T00:46:40.355Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000021")
+2026-05-23T00:46:40.356Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000021/displayed
+2026-05-23T00:46:40.397Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.397Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-23T00:46:40.397Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.397Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-23T00:46:40.436Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff0000001a',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff0000001a'
+}
+2026-05-23T00:46:40.440Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff0000001a")
+2026-05-23T00:46:40.441Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000001a/displayed
+2026-05-23T00:46:40.478Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.478Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-23T00:46:40.480Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.480Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-23T00:46:40.538Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff0000001e',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff0000001e'
+}
+2026-05-23T00:46:40.541Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff0000001e")
+2026-05-23T00:46:40.541Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000001e/displayed
+2026-05-23T00:46:40.577Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.577Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff0000001e")
+2026-05-23T00:46:40.577Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000001e/text
+2026-05-23T00:46:40.615Z INFO webdriver: RESULT Products
+2026-05-23T00:46:40.630Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T00:46:40.631Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.631Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T00:46:40.678Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000013'
+}
+2026-05-23T00:46:40.682Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000013")
+2026-05-23T00:46:40.682Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000013/displayed
+2026-05-23T00:46:40.710Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.710Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/cartRL")
+2026-05-23T00:46:40.710Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.710Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/cartRL"}
+2026-05-23T00:46:40.758Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000015',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000015'
+}
+2026-05-23T00:46:40.761Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000015")
+2026-05-23T00:46:40.761Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000015/displayed
+2026-05-23T00:46:40.787Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.788Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:40.788Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.788Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:40.835Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:40.838Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:40.838Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:40.870Z INFO webdriver: RESULT true
+2026-05-23T00:46:40.870Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productRV")
+2026-05-23T00:46:40.871Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:40.871Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productRV"}
+2026-05-23T00:46:41.063Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000021',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000021'
+}
+2026-05-23T00:46:41.071Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000021")
+2026-05-23T00:46:41.072Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000021/displayed
+2026-05-23T00:46:41.122Z INFO webdriver: RESULT true
+All element all present on product screen
+2026-05-23T00:46:41.122Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:41.123Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:41.123Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:41.168Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:41.171Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:41.172Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:41.204Z INFO webdriver: RESULT true
+2026-05-23T00:46:41.204Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:41.205Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:41.205Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:41.255Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:41.260Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:41.260Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:41.287Z INFO webdriver: RESULT true
+2026-05-23T00:46:41.288Z INFO webdriver: COMMAND elementClick("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:41.288Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/click
+2026-05-23T00:46:41.289Z INFO webdriver: DATA {}
+2026-05-23T00:46:41.383Z INFO webdriver: RESULT null
+CLicked btn sort filter
+2026-05-23T00:46:41.384Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameAscIV")
+2026-05-23T00:46:41.384Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameAscIV")
+2026-05-23T00:46:41.385Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:41.385Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameAscIV"}
+2026-05-23T00:46:41.386Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:41.386Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameAscIV"}
+2026-05-23T00:46:41.794Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b29-ffff-ffff0000016a',
+  ELEMENT: '00000000-0000-0b29-ffff-ffff0000016a'
+}
+2026-05-23T00:46:41.796Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b29-ffff-ffff0000016a")
+2026-05-23T00:46:41.797Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b29-ffff-ffff0000016a/displayed
+2026-05-23T00:46:42.308Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b29-ffff-ffff0000016a',
+  ELEMENT: '00000000-0000-0b29-ffff-ffff0000016a'
+}
+2026-05-23T00:46:42.310Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b29-ffff-ffff0000016a")
+2026-05-23T00:46:42.310Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b29-ffff-ffff0000016a/displayed
+2026-05-23T00:46:42.340Z INFO webdriver: RESULT true
+2026-05-23T00:46:42.340Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:42.341Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:42.341Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:42.364Z INFO webdriver: RESULT true
+2026-05-23T00:46:42.365Z INFO webdriver: COMMAND elementClick("00000000-0000-0b29-ffff-ffff0000016a")
+2026-05-23T00:46:42.365Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b29-ffff-ffff0000016a/click
+2026-05-23T00:46:42.365Z INFO webdriver: DATA {}
+2026-05-23T00:46:42.403Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b29-ffff-ffff0000016e',
+  ELEMENT: '00000000-0000-0b29-ffff-ffff0000016e'
+}
+2026-05-23T00:46:42.406Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b29-ffff-ffff0000016e")
+2026-05-23T00:46:42.406Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b29-ffff-ffff0000016e/displayed
+2026-05-23T00:46:43.364Z INFO webdriver: RESULT null
+2026-05-23T00:46:43.367Z INFO webdriver: COMMAND findElements("id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-23T00:46:43.368Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/elements
+2026-05-23T00:46:43.368Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-23T00:46:43.427Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:43.427Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:43.427Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:43.640Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000283',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff00000283'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff0000028e',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff0000028e'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000299',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff00000299'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff000002a4',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff000002a4'
+  }
+]
+2026-05-23T00:46:43.654Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff00000283")
+2026-05-23T00:46:43.654Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000283/text
+2026-05-23T00:46:43.792Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:43.799Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b29-ffff-ffff0000016e")
+2026-05-23T00:46:43.799Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b29-ffff-ffff0000016e/displayed
+2026-05-23T00:46:43.819Z INFO webdriver: RESULT Sauce Labs Backpack
+2026-05-23T00:46:43.819Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff0000028e")
+2026-05-23T00:46:43.819Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff0000028e/text
+2026-05-23T00:46:43.845Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:43.845Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:43.845Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:43.869Z INFO webdriver: RESULT Sauce Labs Backpack (green)
+2026-05-23T00:46:43.871Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff00000299")
+2026-05-23T00:46:43.872Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000299/text
+2026-05-23T00:46:44.078Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:44.099Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:44.099Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.099Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:44.105Z INFO webdriver: RESULT Sauce Labs Backpack (orange)
+2026-05-23T00:46:44.106Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff000002a4")
+2026-05-23T00:46:44.107Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff000002a4/text
+2026-05-23T00:46:44.283Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:44.292Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:44.293Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.293Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:44.321Z INFO webdriver: RESULT Sauce Labs Backpack (red)
+ACTUAL :  [
+  'Sauce Labs Backpack',
+  'Sauce Labs Backpack (green)',
+  'Sauce Labs Backpack (orange)',
+  'Sauce Labs Backpack (red)'
+]
+EXPECTED ASC :  [
+  'Sauce Labs Backpack',
+  'Sauce Labs Backpack (green)',
+  'Sauce Labs Backpack (orange)',
+  'Sauce Labs Backpack (red)'
+]
+2026-05-23T00:46:44.337Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:44.338Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.338Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:44.528Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:44.537Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:44.538Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.539Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:44.558Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:44.560Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:44.561Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:44.729Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:44.741Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:44.741Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.742Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:44.748Z INFO webdriver: RESULT true
+2026-05-23T00:46:44.749Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T00:46:44.749Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.749Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T00:46:44.945Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:44.952Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:44.953Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:44.953Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:44.988Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0b28-ffff-ffff00000014'
+}
+2026-05-23T00:46:44.991Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:44.991Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/displayed
+2026-05-23T00:46:45.165Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:45.179Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:45.179Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:45.179Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:45.190Z INFO webdriver: RESULT true
+2026-05-23T00:46:45.191Z INFO webdriver: COMMAND elementClick("00000000-0000-0b28-ffff-ffff00000014")
+2026-05-23T00:46:45.191Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff00000014/click
+2026-05-23T00:46:45.191Z INFO webdriver: DATA {}
+2026-05-23T00:46:45.354Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:45.359Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:45.359Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:45.360Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:45.418Z INFO webdriver: RESULT null
+CLicked btn sort filter
+2026-05-23T00:46:45.419Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameAscIV")
+2026-05-23T00:46:45.419Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:45.419Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:45.419Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameAscIV"}
+2026-05-23T00:46:45.420Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:45.420Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:45.778Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:45.791Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:45.792Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:45.792Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:46.274Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b2a-ffff-ffff00000390',
+  ELEMENT: '00000000-0000-0b2a-ffff-ffff00000390'
+}
+2026-05-23T00:46:46.277Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b2a-ffff-ffff00000390")
+2026-05-23T00:46:46.277Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000390/displayed
+2026-05-23T00:46:46.308Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b2a-ffff-ffff00000394',
+  ELEMENT: '00000000-0000-0b2a-ffff-ffff00000394'
+}
+2026-05-23T00:46:46.310Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b2a-ffff-ffff00000394")
+2026-05-23T00:46:46.311Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000394/displayed
+2026-05-23T00:46:46.347Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b2a-ffff-ffff00000394',
+  ELEMENT: '00000000-0000-0b2a-ffff-ffff00000394'
+}
+2026-05-23T00:46:46.350Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b2a-ffff-ffff00000394")
+2026-05-23T00:46:46.351Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000394/displayed
+2026-05-23T00:46:46.370Z INFO webdriver: RESULT true
+2026-05-23T00:46:46.370Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:46.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:46.371Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:46.403Z INFO webdriver: RESULT true
+2026-05-23T00:46:46.403Z INFO webdriver: COMMAND elementClick("00000000-0000-0b2a-ffff-ffff00000394")
+2026-05-23T00:46:46.404Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000394/click
+2026-05-23T00:46:46.404Z INFO webdriver: DATA {}
+2026-05-23T00:46:46.428Z INFO webdriver: RESULT true
+2026-05-23T00:46:46.428Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:46.428Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:46.429Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:46.462Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b2a-ffff-ffff00000394',
+  ELEMENT: '00000000-0000-0b2a-ffff-ffff00000394'
+}
+2026-05-23T00:46:46.465Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b2a-ffff-ffff00000394")
+2026-05-23T00:46:46.465Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000394/displayed
+2026-05-23T00:46:47.410Z INFO webdriver: RESULT null
+2026-05-23T00:46:47.411Z INFO webdriver: COMMAND findElements("id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-23T00:46:47.412Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/elements
+2026-05-23T00:46:47.412Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-23T00:46:47.625Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:47.628Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:47.628Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:47.628Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:47.645Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:47.645Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:47.645Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:47.810Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff000004a9',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff000004a9'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff000004b4',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff000004b4'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff000004bf',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff000004bf'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0b28-ffff-ffff000004ca',
+    ELEMENT: '00000000-0000-0b28-ffff-ffff000004ca'
+  }
+]
+2026-05-23T00:46:47.823Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff000004a9")
+2026-05-23T00:46:47.823Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff000004a9/text
+2026-05-23T00:46:48.009Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:48.031Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:48.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:48.032Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:48.232Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:48.240Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0b2a-ffff-ffff00000394")
+2026-05-23T00:46:48.240Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b2a-ffff-ffff00000394/displayed
+2026-05-23T00:46:48.252Z INFO webdriver: RESULT Test.allTheThings() T-Shirt (yellow)
+2026-05-23T00:46:48.252Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff000004b4")
+2026-05-23T00:46:48.253Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff000004b4/text
+2026-05-23T00:46:48.368Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:48.372Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:48.372Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:48.372Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:48.399Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:48.399Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:48.399Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:48.418Z INFO webdriver: RESULT Test.allTheThings() T-Shirt (turquoise)
+2026-05-23T00:46:48.418Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff000004bf")
+2026-05-23T00:46:48.419Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff000004bf/text
+2026-05-23T00:46:48.619Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:48.636Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:48.636Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:48.636Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:48.791Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:48.808Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:48.808Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:48.808Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:48.811Z INFO webdriver: RESULT Test.allTheThings() T-Shirt (purple)
+2026-05-23T00:46:48.811Z INFO webdriver: COMMAND getElementText("00000000-0000-0b28-ffff-ffff000004ca")
+2026-05-23T00:46:48.812Z INFO webdriver: [GET] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element/00000000-0000-0b28-ffff-ffff000004ca/text
+2026-05-23T00:46:49.015Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:49.023Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:49.024Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:49.024Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:49.167Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:49.181Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:49.182Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:49.182Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:49.189Z INFO webdriver: RESULT Test.allTheThings() T-Shirt (pink)
+ACTUAL :  [
+  'Test.allTheThings() T-Shirt (yellow)',
+  'Test.allTheThings() T-Shirt (turquoise)',
+  'Test.allTheThings() T-Shirt (purple)',
+  'Test.allTheThings() T-Shirt (pink)'
+]
+EXPECTED ASC :  [
+  'Test.allTheThings() T-Shirt (pink)',
+  'Test.allTheThings() T-Shirt (purple)',
+  'Test.allTheThings() T-Shirt (turquoise)',
+  'Test.allTheThings() T-Shirt (yellow)'
+]
+2026-05-23T00:46:49.190Z INFO webdriver: COMMAND executeScript("mobile: getCurrentPackage", <object>)
+2026-05-23T00:46:49.191Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/execute/sync
+2026-05-23T00:46:49.191Z INFO webdriver: DATA {"script":"mobile: getCurrentPackage","args":[{}]}
+2026-05-23T00:46:49.363Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:49.381Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:49.381Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:49.381Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:49.590Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:49.610Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:49.610Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:49.611Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:49.663Z INFO webdriver: RESULT com.saucelabs.mydemoapp.android
+2026-05-23T00:46:49.663Z INFO webdriver: COMMAND terminateApp("com.saucelabs.mydemoapp.android")
+2026-05-23T00:46:49.663Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/appium/device/terminate_app
+2026-05-23T00:46:49.664Z INFO webdriver: DATA {"appId":"com.saucelabs.mydemoapp.android"}
+2026-05-23T00:46:49.848Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:49.852Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuPriceAscIV")
+2026-05-23T00:46:49.853Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:49.853Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T00:46:50.003Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T00:46:50.007Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuNameDesIV")
+2026-05-23T00:46:50.007Z INFO webdriver: [POST] http://127.0.0.1:4723/session/5ad18e5e-e847-4de3-adcd-0a7b12266476/element
+2026-05-23T00:46:50.007Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}
+2026-05-23T00:46:50.520Z INFO webdriver: RESULT true

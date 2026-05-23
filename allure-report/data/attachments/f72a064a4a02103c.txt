@@ -1,0 +1,4 @@
+2026-05-22T15:59:04.759Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T15:59:04.762Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T15:59:04.766Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test

@@ -1,0 +1,4 @@
+2026-05-22T16:08:01.163Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:08:01.680Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:08:02.704Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T16:08:02.711Z ERROR webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"

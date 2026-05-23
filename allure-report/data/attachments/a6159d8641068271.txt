@@ -1,0 +1,6 @@
+2026-05-23T01:45:22.943Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-23T01:45:32.551Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-23T01:45:39.347Z WARN webdriver: WebDriverError: Could not proxy command to the remote server. Original error: socket hang up when running "element" with method "POST"
+2026-05-23T01:45:39.897Z WARN webdriver: WebDriverError: Could not proxy command to the remote server. Original error: socket hang up when running "element" with method "POST"
+2026-05-23T01:45:40.933Z WARN webdriver: WebDriverError: Could not proxy command to the remote server. Original error: socket hang up when running "element" with method "POST"
+2026-05-23T01:45:40.954Z ERROR webdriver: WebDriverError: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST"

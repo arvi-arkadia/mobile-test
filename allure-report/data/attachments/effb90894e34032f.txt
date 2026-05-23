@@ -1,0 +1,11 @@
+2026-05-22T17:31:45.848Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T17:32:06.628Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-22T17:32:06.697Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-22T17:32:52.718Z WARN webdriver: WebDriverError: Could not proxy command to the remote server. Original error: socket hang up when running "execute/sync" with method "POST"
+2026-05-22T17:32:53.322Z WARN webdriver: WebDriverError: 'POST /appium/gestures/scroll' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "execute/sync" with method "POST"
+2026-05-22T17:32:54.353Z WARN webdriver: WebDriverError: 'POST /appium/gestures/scroll' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "execute/sync" with method "POST"
+2026-05-22T17:32:54.369Z ERROR webdriver: WebDriverError: 'POST /appium/gestures/scroll' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "execute/sync" with method "POST"
+2026-05-22T17:32:55.195Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T17:32:55.705Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T17:32:56.722Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"
+2026-05-22T17:32:56.734Z ERROR webdriver: WebDriverError: A session is either terminated or not started when running "appium/device/terminate_app" with method "POST"

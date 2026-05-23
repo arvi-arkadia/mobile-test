@@ -7,7 +7,14 @@ export default class BasePage {
     constructor(driver: any) {
       this.driver = driver;
     }
-  
+    
+    async getDataTxt(locator: string): Promise<string> {
+
+      const element = await this.driver.$(locator);
+    
+      return await element.getText();
+    }
+
     async click(locator: string) {
   
       const element = await this.driver.$(locator);
@@ -33,7 +40,7 @@ export default class BasePage {
     async isPresent(locator: string){
       const element = await this.driver.$(locator);
       await element.waitForDisplayed({
-        timeout: 15000
+        timeout: 35000
       });
     }
 
@@ -56,8 +63,8 @@ export default class BasePage {
     async closeApp() {
 
       const currentPackage = await this.driver.getCurrentPackage();
-      // await this.driver.deleteSession();
       await this.driver.terminateApp(currentPackage);
+      await this.driver.deleteSession();
     }
     
   }

@@ -1,0 +1,4 @@
+2026-05-22T16:08:41.688Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "execute/sync" with method "POST"
+2026-05-22T16:08:42.205Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "execute/sync" with method "POST"
+2026-05-22T16:08:43.210Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "execute/sync" with method "POST"
+2026-05-22T16:08:43.221Z ERROR webdriver: WebDriverError: A session is either terminated or not started when running "execute/sync" with method "POST"

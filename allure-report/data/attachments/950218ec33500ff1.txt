@@ -1,0 +1,877 @@
+2026-05-23T02:00:39.665Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-23T02:00:39.665Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-23T02:00:39.665Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-23T02:00:43.941Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-23T02:00:43.942Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:43.942Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-23T02:00:44.018Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d0',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d0'
+}
+2026-05-23T02:00:44.021Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d0")
+2026-05-23T02:00:44.022Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d0/displayed
+2026-05-23T02:00:44.045Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.046Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-23T02:00:44.046Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.047Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-23T02:00:44.091Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d4',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d4'
+}
+2026-05-23T02:00:44.094Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d4")
+2026-05-23T02:00:44.094Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d4/displayed
+2026-05-23T02:00:44.118Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.119Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T02:00:44.119Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.119Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T02:00:44.166Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001c9'
+}
+2026-05-23T02:00:44.169Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001c9")
+2026-05-23T02:00:44.170Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001c9/displayed
+2026-05-23T02:00:44.200Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.201Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/cartRL")
+2026-05-23T02:00:44.201Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.201Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/cartRL"}
+2026-05-23T02:00:44.255Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001cb',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001cb'
+}
+2026-05-23T02:00:44.257Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001cb")
+2026-05-23T02:00:44.257Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001cb/displayed
+2026-05-23T02:00:44.303Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.304Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T02:00:44.304Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.305Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T02:00:44.352Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001ca',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001ca'
+}
+2026-05-23T02:00:44.356Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001ca")
+2026-05-23T02:00:44.356Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001ca/displayed
+2026-05-23T02:00:44.392Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.392Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productRV")
+2026-05-23T02:00:44.392Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.392Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productRV"}
+2026-05-23T02:00:44.595Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d7',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d7'
+}
+2026-05-23T02:00:44.603Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d7")
+2026-05-23T02:00:44.604Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d7/displayed
+2026-05-23T02:00:44.647Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.647Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-23T02:00:44.648Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.648Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-23T02:00:44.710Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d0',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d0'
+}
+2026-05-23T02:00:44.714Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d0")
+2026-05-23T02:00:44.715Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d0/displayed
+2026-05-23T02:00:44.747Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.747Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-23T02:00:44.747Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.747Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-23T02:00:44.810Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d4',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d4'
+}
+2026-05-23T02:00:44.813Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d4")
+2026-05-23T02:00:44.813Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d4/displayed
+2026-05-23T02:00:44.840Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.840Z INFO webdriver: COMMAND getElementText("00000000-0000-0ba4-ffff-ffff000001d4")
+2026-05-23T02:00:44.840Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d4/text
+2026-05-23T02:00:44.881Z INFO webdriver: RESULT Products
+2026-05-23T02:00:44.883Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T02:00:44.883Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.883Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T02:00:44.933Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001c9'
+}
+2026-05-23T02:00:44.935Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001c9")
+2026-05-23T02:00:44.936Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001c9/displayed
+2026-05-23T02:00:44.976Z INFO webdriver: RESULT true
+2026-05-23T02:00:44.977Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/cartRL")
+2026-05-23T02:00:44.977Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:44.977Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/cartRL"}
+2026-05-23T02:00:45.042Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001cb',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001cb'
+}
+2026-05-23T02:00:45.044Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001cb")
+2026-05-23T02:00:45.044Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001cb/displayed
+2026-05-23T02:00:45.113Z INFO webdriver: RESULT true
+2026-05-23T02:00:45.114Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-23T02:00:45.114Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:45.114Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-23T02:00:45.172Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001ca',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001ca'
+}
+2026-05-23T02:00:45.174Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001ca")
+2026-05-23T02:00:45.174Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001ca/displayed
+2026-05-23T02:00:45.214Z INFO webdriver: RESULT true
+2026-05-23T02:00:45.214Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productRV")
+2026-05-23T02:00:45.214Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:45.215Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productRV"}
+2026-05-23T02:00:45.407Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001d7',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001d7'
+}
+2026-05-23T02:00:45.414Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001d7")
+2026-05-23T02:00:45.415Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001d7/displayed
+2026-05-23T02:00:45.469Z INFO webdriver: RESULT true
+All element all present on product screen
+2026-05-23T02:00:45.470Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T02:00:45.471Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:45.472Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T02:00:45.543Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001c9'
+}
+2026-05-23T02:00:45.551Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001c9")
+2026-05-23T02:00:45.552Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001c9/displayed
+2026-05-23T02:00:45.604Z INFO webdriver: RESULT true
+2026-05-23T02:00:45.604Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-23T02:00:45.605Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:45.605Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-23T02:00:45.671Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001c9'
+}
+2026-05-23T02:00:45.677Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001c9")
+2026-05-23T02:00:45.678Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001c9/displayed
+2026-05-23T02:00:45.727Z INFO webdriver: RESULT true
+2026-05-23T02:00:45.728Z INFO webdriver: COMMAND elementClick("00000000-0000-0ba4-ffff-ffff000001c9")
+2026-05-23T02:00:45.729Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001c9/click
+2026-05-23T02:00:45.729Z INFO webdriver: DATA {}
+2026-05-23T02:00:46.723Z INFO webdriver: RESULT null
+Clicked btn drawer menu
+2026-05-23T02:00:46.723Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']")
+2026-05-23T02:00:46.724Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:46.724Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"}
+2026-05-23T02:00:47.477Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001e7',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001e7'
+}
+2026-05-23T02:00:47.479Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001e7")
+2026-05-23T02:00:47.479Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001e7/displayed
+2026-05-23T02:00:47.503Z INFO webdriver: RESULT true
+2026-05-23T02:00:47.504Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']")
+2026-05-23T02:00:47.504Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:47.504Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']"}
+2026-05-23T02:00:47.814Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001eb',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001eb'
+}
+2026-05-23T02:00:47.816Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001eb")
+2026-05-23T02:00:47.816Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001eb/displayed
+2026-05-23T02:00:47.841Z INFO webdriver: RESULT true
+2026-05-23T02:00:47.841Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']")
+2026-05-23T02:00:47.842Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:47.842Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']"}
+2026-05-23T02:00:48.190Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001ef',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001ef'
+}
+2026-05-23T02:00:48.193Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001ef")
+2026-05-23T02:00:48.193Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001ef/displayed
+2026-05-23T02:00:48.217Z INFO webdriver: RESULT true
+2026-05-23T02:00:48.217Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']")
+2026-05-23T02:00:48.218Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:48.218Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']"}
+2026-05-23T02:00:48.538Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001f3',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001f3'
+}
+2026-05-23T02:00:48.545Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001f3")
+2026-05-23T02:00:48.546Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001f3/displayed
+2026-05-23T02:00:48.583Z INFO webdriver: RESULT true
+2026-05-23T02:00:48.583Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']")
+2026-05-23T02:00:48.583Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:48.584Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']"}
+2026-05-23T02:00:48.921Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001f7',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001f7'
+}
+2026-05-23T02:00:48.923Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001f7")
+2026-05-23T02:00:48.923Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001f7/displayed
+2026-05-23T02:00:48.948Z INFO webdriver: RESULT true
+2026-05-23T02:00:48.948Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']")
+2026-05-23T02:00:48.948Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:48.948Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']"}
+2026-05-23T02:00:49.214Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001fb',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001fb'
+}
+2026-05-23T02:00:49.216Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001fb")
+2026-05-23T02:00:49.216Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001fb/displayed
+2026-05-23T02:00:49.241Z INFO webdriver: RESULT true
+2026-05-23T02:00:49.242Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']")
+2026-05-23T02:00:49.242Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:49.242Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']"}
+2026-05-23T02:00:49.497Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff000001ff',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff000001ff'
+}
+2026-05-23T02:00:49.505Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff000001ff")
+2026-05-23T02:00:49.506Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff000001ff/displayed
+2026-05-23T02:00:49.530Z INFO webdriver: RESULT true
+2026-05-23T02:00:49.530Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']")
+2026-05-23T02:00:49.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:49.531Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']"}
+2026-05-23T02:00:49.843Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff00000203',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff00000203'
+}
+2026-05-23T02:00:49.850Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff00000203")
+2026-05-23T02:00:49.850Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff00000203/displayed
+2026-05-23T02:00:49.876Z INFO webdriver: RESULT true
+2026-05-23T02:00:49.877Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']")
+2026-05-23T02:00:49.877Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:49.877Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']"}
+2026-05-23T02:00:50.166Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff00000207',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff00000207'
+}
+2026-05-23T02:00:50.168Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff00000207")
+2026-05-23T02:00:50.168Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff00000207/displayed
+2026-05-23T02:00:50.190Z INFO webdriver: RESULT true
+2026-05-23T02:00:50.191Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']")
+2026-05-23T02:00:50.191Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:50.191Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']"}
+2026-05-23T02:00:50.495Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0ba4-ffff-ffff0000020b',
+  ELEMENT: '00000000-0000-0ba4-ffff-ffff0000020b'
+}
+2026-05-23T02:00:50.504Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0ba4-ffff-ffff0000020b")
+2026-05-23T02:00:50.505Z INFO webdriver: [GET] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element/00000000-0000-0ba4-ffff-ffff0000020b/displayed
+2026-05-23T02:00:50.534Z INFO webdriver: RESULT true
+2026-05-23T02:00:50.534Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:50.534Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:50.535Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:50.835Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:50.838Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:50.839Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:50.839Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:51.107Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:51.113Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:51.113Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:51.113Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:51.419Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:51.423Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:51.423Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:51.423Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:51.731Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:51.735Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:51.736Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:51.736Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:51.993Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:52.012Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:52.013Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:52.013Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:52.319Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:52.336Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:52.336Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:52.337Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:52.638Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:52.652Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:52.653Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:52.653Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:52.929Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:52.948Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:52.949Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:52.950Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:53.227Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:53.242Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:53.243Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:53.243Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:53.479Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:53.489Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:53.490Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:53.491Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:53.788Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:53.802Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:53.803Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:53.803Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:54.530Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:54.542Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:54.543Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:54.543Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:54.832Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:54.852Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:54.853Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:54.853Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:55.124Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:55.138Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:55.138Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:55.139Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:55.452Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:55.458Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:55.458Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:55.458Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:55.733Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:55.745Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:55.745Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:55.746Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:56.061Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:56.082Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:56.083Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:56.083Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:56.371Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:56.375Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:56.375Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:56.375Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:56.679Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:56.687Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:56.688Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:56.688Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:56.962Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:56.985Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:56.986Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:56.986Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:57.238Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:57.252Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:57.253Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:57.254Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:57.450Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:57.468Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:57.469Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:57.469Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:57.707Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:57.714Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:57.715Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:57.715Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:57.976Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:57.982Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:57.982Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:57.982Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:58.245Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:58.261Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:58.263Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:58.264Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:58.516Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:58.535Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:58.536Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:58.536Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:58.824Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:58.831Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:58.832Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:58.832Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:59.085Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:59.087Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:59.088Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:59.088Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:59.341Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:59.343Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:59.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:59.344Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:59.569Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:59.585Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:59.587Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:59.587Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:00:59.838Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:00:59.851Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:00:59.852Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:00:59.852Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:00.107Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:00.122Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:00.122Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:00.122Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:00.381Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:00.387Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:00.388Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:00.388Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:00.605Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:00.608Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:00.608Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:00.609Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:00.834Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:00.846Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:00.846Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:00.846Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:01.116Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:01.119Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:01.120Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:01.120Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:01.366Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:01.370Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:01.371Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:01.371Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:02.087Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:02.108Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:02.108Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:02.108Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:02.386Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:02.401Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:02.402Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:02.402Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:02.678Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:02.685Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:02.686Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:02.686Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:02.937Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:02.944Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:02.944Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:02.944Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:03.171Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:03.184Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:03.185Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:03.185Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:03.474Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:03.476Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:03.477Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:03.477Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:03.681Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:03.687Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:03.688Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:03.688Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:03.929Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:03.934Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:03.935Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:03.935Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:04.170Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:04.177Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:04.177Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:04.177Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:04.441Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:04.445Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:04.446Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:04.446Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:04.705Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:04.716Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:04.716Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:04.717Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:05.020Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:05.023Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:05.024Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:05.024Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:05.302Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:05.309Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:05.309Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:05.309Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:05.555Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}
+2026-05-23T02:01:05.561Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-23T02:01:05.562Z INFO webdriver: [POST] http://127.0.0.1:4723/session/a14fa45b-b4ae-4532-b5e8-575406cae74d/element
+2026-05-23T02:01:05.562Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-23T02:01:05.836Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\ARV\\.appium\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-android-driver\\lib\\commands\\find.ts:86:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:60:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\ARV\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\@appium\\base-driver\\lib\\basedriver\\commands\\find.ts:75:12)'
+}

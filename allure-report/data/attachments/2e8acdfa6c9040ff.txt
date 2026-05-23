@@ -1,0 +1,6 @@
+2026-05-23T00:49:29.984Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T00:49:30.340Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T00:49:33.979Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T00:49:34.013Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T00:49:34.675Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T00:49:34.700Z WARN webdriver: Request encountered a stale element - terminating request

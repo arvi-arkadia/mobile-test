@@ -1,0 +1,20 @@
+2026-05-22T13:55:48.280Z WARN webdriver: WebDriverError: The application at 'C:\Users\ARV\apk\demo.apk' does not exist or is not accessible when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T13:55:49.678Z WARN webdriver: WebDriverError: The application at 'C:\Users\ARV\apk\demo.apk' does not exist or is not accessible when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T13:55:51.436Z WARN webdriver: WebDriverError: The application at 'C:\Users\ARV\apk\demo.apk' does not exist or is not accessible when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T13:55:52.051Z ERROR webdriver: WebDriverError: The application at 'C:\Users\ARV\apk\demo.apk' does not exist or is not accessible when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T13:55:52.051Z ERROR webdriver: unknown error: WebDriverError: The application at 'C:\Users\ARV\apk\demo.apk' does not exist or is not accessible when running "http://127.0.0.1:4723/session" with method "POST"
+    at FetchRequest._request (file:///C:/Code/Github/mobile-test/node_modules/webdriver/build/node.js:2229:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at startWebDriverSession (file:///C:/Code/Github/mobile-test/node_modules/webdriver/build/node.js:1331:16)
+    at Function.newSession (file:///C:/Code/Github/mobile-test/node_modules/webdriver/build/node.js:1753:41)
+    at remote (file:///C:/Code/Github/mobile-test/node_modules/webdriverio/build/node.js:9979:20)
+    at createDriver (C:\Code\Github\mobile-test\utils\driver.ts:4:18)
+    at C:\Code\Github\mobile-test\tests\android\login.spec.ts:5:18
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3045:9
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2537:11
+    at TimeoutManager.withRunnable (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:1816:14)
+    at TestInfoImpl._runWithTimeout (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2535:7)
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3043:7
+    at WorkerMain._runTest (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3016:5)
+    at WorkerMain.runTestGroup (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2911:9)
+    at process.<anonymous> (C:\Code\Github\mobile-test\node_modules\playwright\lib\common\index.js:1955:25)

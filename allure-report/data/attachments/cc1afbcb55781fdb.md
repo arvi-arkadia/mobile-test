@@ -1,0 +1,214 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: android\TC-002.spec.ts >> Guest Access
+- Location: tests\android\TC-002.spec.ts:10:5
+
+# Error details
+
+```
+unknown error: WebDriverError: 'POST /elements' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element/00000000-0000-0a25-ffff-ffff0000001f/elements" with method "POST"
+```
+
+# Test source
+
+```ts
+  1   | import BasePage from "pages/BasePage";
+  2   | import { remote, Browser } from 'webdriverio';
+  3   | 
+  4   | export default class ProductMenu extends BasePage{
+  5   |     // title
+  6   |     logoMenu = 'id:com.saucelabs.mydemoapp.android:id/mTvTitle';
+  7   |     txtProduct = 'id:com.saucelabs.mydemoapp.android:id/productTV';
+  8   |     // buttuon
+  9   |     btnBurgerMenu = 'id:com.saucelabs.mydemoapp.android:id/menuIV';
+  10  |     btnCart = 'id:com.saucelabs.mydemoapp.android:id/cartRL';
+  11  |     btnSort = 'id:com.saucelabs.mydemoapp.android:id/sortIV';
+  12  |     //
+  13  |     productList = "id:com.saucelabs.mydemoapp.android:id/productRV";
+  14  |     itemCatalog = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"
+  15  |     itemWebView = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']"
+  16  |     itemQRCode = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']"
+  17  |     itemGeoLoc = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']"
+  18  |     itemDrawing = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']"
+  19  |     itemAbout = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']"
+  20  |     itemResetApp = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']"
+  21  |     itemFingerPrint = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']"
+  22  |     itemVirtualUSB = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']"
+  23  |     itemCrashApp = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']"
+  24  |     itemLogIn = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"
+  25  |     itemLogOut = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log Out']"
+  26  |     //
+  27  |     scrollView = 'id:com.saucelabs.mydemoapp.android:id/scrollView';
+  28  | 
+  29  |     async clickDrawerMenu(){
+  30  |         await this.isPresent(this.btnBurgerMenu)
+  31  |         await this.click(this.btnBurgerMenu)
+  32  |         console.log("Clicked btn drawer menu")
+  33  |     }
+  34  |     async clickCatalog(){
+  35  |         await this.isDisplayed(this.itemCatalog);
+  36  |         await this.click(this.itemCatalog)
+  37  |         console.log("Clicked btn catalog")
+  38  |     }
+  39  |     async clickLogin(){
+  40  |         await this.isDisplayed(this.itemLogIn);
+  41  |         await this.click(this.itemLogIn)
+  42  |         console.log("Clicked btn login")
+  43  |     }
+  44  |     async verifyProductMenu(){
+  45  |         await this.isDisplayed(this.logoMenu);
+  46  |         await this.isTextEqual(this.txtProduct,'Products')
+  47  |         await this.isDisplayed(this.btnBurgerMenu)
+  48  |         await this.isDisplayed(this.btnCart)
+  49  |         await this.isDisplayed(this.btnSort)
+  50  |         await this.isDisplayed(this.productList)
+  51  |         console.log("All element all present on product screen")
+  52  |     }
+  53  | 
+  54  |     async verifyDrawerMenuBeforeLogin(){
+  55  |         await this.isDisplayed(this.itemCatalog);
+  56  |         await this.isDisplayed(this.itemWebView);
+  57  |         await this.isDisplayed(this.itemQRCode);
+  58  |         await this.isDisplayed(this.itemGeoLoc);
+  59  |         await this.isDisplayed(this.itemDrawing);
+  60  |         await this.isDisplayed(this.itemAbout);
+  61  |         await this.isDisplayed(this.itemResetApp);
+  62  |         await this.isDisplayed(this.itemFingerPrint);
+  63  |         await this.isDisplayed(this.itemVirtualUSB);
+  64  |         await this.isDisplayed(this.itemCrashApp);
+  65  |         await this.isDisplayed(this.itemLogIn);
+  66  |         console.log("All element all present on drawer screen")
+  67  |     }
+  68  |     async verifyDrawerMenuAfterLogin(){
+  69  |         await this.isDisplayed(this.itemCatalog);
+  70  |         await this.isDisplayed(this.itemWebView);
+  71  |         await this.isDisplayed(this.itemQRCode);
+  72  |         await this.isDisplayed(this.itemGeoLoc);
+  73  |         await this.isDisplayed(this.itemDrawing);
+  74  |         await this.isDisplayed(this.itemAbout);
+  75  |         await this.isDisplayed(this.itemResetApp);
+  76  |         await this.isDisplayed(this.itemFingerPrint);
+  77  |         await this.isDisplayed(this.itemVirtualUSB);
+  78  |         await this.isDisplayed(this.itemCrashApp);
+  79  |         await this.isDisplayed(this.itemLogOut);
+  80  |         console.log("All element all present on drawer screen")
+  81  |     }
+  82  |    
+  83  |     async getAllProductItems() {
+  84  |         await this.isDisplayed(this.scrollView);
+  85  |         const scrollView = await this.driver.$(this.scrollView);
+  86  | 
+  87  |         const productList: Map<string, any>[] = [];
+  88  |         const visitedProducts = new Set<string>();
+  89  |     
+  90  |         let canScroll = true;
+  91  |     
+  92  |         while (canScroll) {
+  93  |     
+  94  |           // all product container
+> 95  |           const viewGroups = await scrollView.$$(
+      |                              ^ unknown error: WebDriverError: 'POST /elements' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element/00000000-0000-0a25-ffff-ffff0000001f/elements" with method "POST"
+  96  |             'xpath:.//android.view.ViewGroup'
+  97  |           );
+  98  |     
+  99  |           for (const group of viewGroups) {
+  100 |     
+  101 |             try {
+  102 |     
+  103 |               // validate product item exists
+  104 |               const productImage = await group.$(
+  105 |                 'id:com.saucelabs.mydemoapp.android:id/productIV'
+  106 |               );
+  107 |     
+  108 |               const productTitle = await group.$(
+  109 |                 'id:com.saucelabs.mydemoapp.android:id/titleTV'
+  110 |               );
+  111 |     
+  112 |               const productPrice = await group.$(
+  113 |                 'id:com.saucelabs.mydemoapp.android:id/priceTV'
+  114 |               );
+  115 |     
+  116 |               const ratingView = await group.$(
+  117 |                 'id:com.saucelabs.mydemoapp.android:id/rattingV'
+  118 |               );
+  119 |     
+  120 |               // skip if structure not match
+  121 |               if (
+  122 |                 !(await productImage.isExisting()) ||
+  123 |                 !(await productTitle.isExisting()) ||
+  124 |                 !(await productPrice.isExisting()) ||
+  125 |                 !(await ratingView.isExisting())
+  126 |               ) {
+  127 |                 continue;
+  128 |               }
+  129 |     
+  130 |               // get value
+  131 |               const title = await productTitle.getText();
+  132 |               const price = await productPrice.getText();
+  133 |     
+  134 |               // prevent duplicate after scrolling
+  135 |               if (visitedProducts.has(title)) {
+  136 |                 continue;
+  137 |               }
+  138 |     
+  139 |               visitedProducts.add(title);
+  140 |     
+  141 |               // create map
+  142 |               const productMap = new Map<string, any>();
+  143 |     
+  144 |               productMap.set(
+  145 |                 'image',
+  146 |                 await productImage.getAttribute('content-desc')
+  147 |               );
+  148 |     
+  149 |               productMap.set('title', title);
+  150 |     
+  151 |               productMap.set('price', price);
+  152 |     
+  153 |               productMap.set(
+  154 |                 'rating',
+  155 |                 await ratingView.isExisting()
+  156 |               );
+  157 |     
+  158 |               productList.push(productMap);
+  159 |     
+  160 |             } catch (error) {
+  161 |               // ignore invalid viewgroup
+  162 |             }
+  163 |           }
+  164 |     
+  165 |           // scroll down
+  166 |           try {
+  167 | 
+  168 |             canScroll = await this.driver.execute(
+  169 |               'mobile: scrollGesture',
+  170 |               {
+  171 |                 left: 100,
+  172 |                 top: 300,
+  173 |                 width: 800,
+  174 |                 height: 1400,
+  175 |                 direction: 'down',
+  176 |                 percent: 0.7
+  177 |               }
+  178 |             );
+  179 |             
+  180 |             await this.driver.pause(1000);
+  181 | 
+  182 |           } catch (error) {
+  183 |           
+  184 |             console.log('Scroll failed:', error);
+  185 |           
+  186 |             canScroll = false;
+  187 |           }
+  188 |         }
+  189 |     
+  190 |         return productList;
+  191 |       }
+  192 | }
+```

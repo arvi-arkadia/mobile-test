@@ -1,0 +1,2 @@
+2026-05-23T01:46:00.331Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-23T01:46:09.461Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"

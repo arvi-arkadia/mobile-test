@@ -1,0 +1,2 @@
+2026-05-23T02:05:51.956Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "element" with method "POST"
+2026-05-23T02:05:51.995Z WARN webdriver: WebDriverError: A session is either terminated or not started when running "element" with method "POST"

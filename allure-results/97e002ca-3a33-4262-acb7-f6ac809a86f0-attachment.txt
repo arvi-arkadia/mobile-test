@@ -1,0 +1,9 @@
+2026-05-23T02:05:51.790Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-23T02:05:51.790Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-23T02:05:51.790Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-23T02:05:51.956Z INFO webdriver: Retrying 2/3
+2026-05-23T02:05:51.956Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0822d011-61df-42f1-9f18-2c95452f2acc/element
+2026-05-23T02:05:51.956Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuPriceAscIV"}
+2026-05-23T02:05:51.996Z INFO webdriver: Retrying 2/3
+2026-05-23T02:05:51.997Z INFO webdriver: [POST] http://127.0.0.1:4723/session/0822d011-61df-42f1-9f18-2c95452f2acc/element
+2026-05-23T02:05:51.997Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuNameDesIV"}

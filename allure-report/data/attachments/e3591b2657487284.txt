@@ -1,0 +1,16 @@
+2026-05-22T17:44:09.106Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T17:44:09.111Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T17:44:09.124Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-22T17:44:22.122Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-22T17:44:22.123Z INFO webdriver: [POST] http://127.0.0.1:4723/session/cc9e5190-a16e-4efc-a1a3-7b1982f0bfe1/element
+2026-05-22T17:44:22.123Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-22T17:44:24.057Z INFO webdriver: Retrying 1/3
+2026-05-22T17:44:24.057Z INFO webdriver: [POST] http://127.0.0.1:4723/session/cc9e5190-a16e-4efc-a1a3-7b1982f0bfe1/element
+2026-05-22T17:44:24.058Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-22T17:44:24.572Z INFO webdriver: Retrying 2/3
+2026-05-22T17:44:24.572Z INFO webdriver: [POST] http://127.0.0.1:4723/session/cc9e5190-a16e-4efc-a1a3-7b1982f0bfe1/element
+2026-05-22T17:44:24.572Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-22T17:44:25.589Z INFO webdriver: Retrying 3/3
+2026-05-22T17:44:25.589Z INFO webdriver: [POST] http://127.0.0.1:4723/session/cc9e5190-a16e-4efc-a1a3-7b1982f0bfe1/element
+2026-05-22T17:44:25.590Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}

@@ -1,0 +1,924 @@
+2026-05-22T17:16:51.787Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T17:16:51.792Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T17:16:51.799Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+2026-05-22T17:17:05.809Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:05.810Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-22T17:17:09.872Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-22T17:17:09.873Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:09.874Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-22T17:17:09.972Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff0000001a',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff0000001a'
+}
+2026-05-22T17:17:10.004Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff0000001a")
+2026-05-22T17:17:10.006Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff0000001a/displayed
+2026-05-22T17:17:10.047Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.048Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-22T17:17:10.049Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.050Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-22T17:17:10.118Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff0000001e',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff0000001e'
+}
+2026-05-22T17:17:10.122Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff0000001e")
+2026-05-22T17:17:10.123Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff0000001e/displayed
+2026-05-22T17:17:10.153Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.154Z INFO webdriver: COMMAND getElementText("00000000-0000-0a0f-ffff-ffff0000001e")
+2026-05-22T17:17:10.155Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff0000001e/text
+2026-05-22T17:17:10.198Z INFO webdriver: RESULT Products
+2026-05-22T17:17:10.207Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T17:17:10.208Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.208Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T17:17:10.263Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000013'
+}
+2026-05-22T17:17:10.266Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000013")
+2026-05-22T17:17:10.267Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000013/displayed
+2026-05-22T17:17:10.294Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.295Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/cartRL")
+2026-05-22T17:17:10.295Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.295Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/cartRL"}
+2026-05-22T17:17:10.358Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000015',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000015'
+}
+2026-05-22T17:17:10.361Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000015")
+2026-05-22T17:17:10.362Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000015/displayed
+2026-05-22T17:17:10.387Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.387Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/sortIV")
+2026-05-22T17:17:10.388Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.388Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/sortIV"}
+2026-05-22T17:17:10.440Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000014',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000014'
+}
+2026-05-22T17:17:10.442Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000014")
+2026-05-22T17:17:10.443Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000014/displayed
+2026-05-22T17:17:10.476Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.477Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productRV")
+2026-05-22T17:17:10.477Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.477Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productRV"}
+2026-05-22T17:17:10.683Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000021',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000021'
+}
+2026-05-22T17:17:10.706Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000021")
+2026-05-22T17:17:10.707Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000021/displayed
+2026-05-22T17:17:10.748Z INFO webdriver: RESULT true
+All element all present on product screen
+2026-05-22T17:17:10.748Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T17:17:10.748Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.749Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T17:17:10.784Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000013'
+}
+2026-05-22T17:17:10.786Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000013")
+2026-05-22T17:17:10.787Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000013/displayed
+2026-05-22T17:17:10.815Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.815Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T17:17:10.816Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:10.816Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T17:17:10.868Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000013',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000013'
+}
+2026-05-22T17:17:10.870Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000013")
+2026-05-22T17:17:10.870Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000013/displayed
+2026-05-22T17:17:10.899Z INFO webdriver: RESULT true
+2026-05-22T17:17:10.900Z INFO webdriver: COMMAND elementClick("00000000-0000-0a0f-ffff-ffff00000013")
+2026-05-22T17:17:10.900Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000013/click
+2026-05-22T17:17:10.900Z INFO webdriver: DATA {}
+2026-05-22T17:17:11.903Z INFO webdriver: RESULT null
+Clicked btn drawer menu
+2026-05-22T17:17:11.904Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']")
+2026-05-22T17:17:11.904Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:11.905Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"}
+2026-05-22T17:17:12.668Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000031',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000031'
+}
+2026-05-22T17:17:12.677Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000031")
+2026-05-22T17:17:12.677Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000031/displayed
+2026-05-22T17:17:12.713Z INFO webdriver: RESULT true
+2026-05-22T17:17:12.714Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']")
+2026-05-22T17:17:12.715Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:12.715Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']"}
+2026-05-22T17:17:13.057Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000035',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000035'
+}
+2026-05-22T17:17:13.063Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000035")
+2026-05-22T17:17:13.064Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000035/displayed
+2026-05-22T17:17:13.121Z INFO webdriver: RESULT true
+2026-05-22T17:17:13.122Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']")
+2026-05-22T17:17:13.122Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:13.122Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']"}
+2026-05-22T17:17:13.493Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000039',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000039'
+}
+2026-05-22T17:17:13.498Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000039")
+2026-05-22T17:17:13.498Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000039/displayed
+2026-05-22T17:17:13.530Z INFO webdriver: RESULT true
+2026-05-22T17:17:13.531Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']")
+2026-05-22T17:17:13.531Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:13.532Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']"}
+2026-05-22T17:17:13.866Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff0000003d',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff0000003d'
+}
+2026-05-22T17:17:13.875Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff0000003d")
+2026-05-22T17:17:13.876Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff0000003d/displayed
+2026-05-22T17:17:13.905Z INFO webdriver: RESULT true
+2026-05-22T17:17:13.905Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']")
+2026-05-22T17:17:13.905Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:13.906Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']"}
+2026-05-22T17:17:14.204Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000041',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000041'
+}
+2026-05-22T17:17:14.212Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000041")
+2026-05-22T17:17:14.213Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000041/displayed
+2026-05-22T17:17:14.253Z INFO webdriver: RESULT true
+2026-05-22T17:17:14.253Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']")
+2026-05-22T17:17:14.254Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:14.255Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']"}
+2026-05-22T17:17:14.594Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000045',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000045'
+}
+2026-05-22T17:17:14.597Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000045")
+2026-05-22T17:17:14.597Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000045/displayed
+2026-05-22T17:17:14.627Z INFO webdriver: RESULT true
+2026-05-22T17:17:14.627Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']")
+2026-05-22T17:17:14.627Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:14.628Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']"}
+2026-05-22T17:17:14.966Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000049',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000049'
+}
+2026-05-22T17:17:14.970Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000049")
+2026-05-22T17:17:14.971Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000049/displayed
+2026-05-22T17:17:15.011Z INFO webdriver: RESULT true
+2026-05-22T17:17:15.012Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']")
+2026-05-22T17:17:15.013Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:15.014Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']"}
+2026-05-22T17:17:15.360Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff0000004d',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff0000004d'
+}
+2026-05-22T17:17:15.369Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff0000004d")
+2026-05-22T17:17:15.370Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff0000004d/displayed
+2026-05-22T17:17:15.404Z INFO webdriver: RESULT true
+2026-05-22T17:17:15.404Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']")
+2026-05-22T17:17:15.405Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:15.405Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']"}
+2026-05-22T17:17:15.708Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000051',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000051'
+}
+2026-05-22T17:17:15.712Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000051")
+2026-05-22T17:17:15.713Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000051/displayed
+2026-05-22T17:17:15.745Z INFO webdriver: RESULT true
+2026-05-22T17:17:15.745Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']")
+2026-05-22T17:17:15.746Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:15.746Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']"}
+2026-05-22T17:17:15.996Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000055',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000055'
+}
+2026-05-22T17:17:16.001Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000055")
+2026-05-22T17:17:16.001Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000055/displayed
+2026-05-22T17:17:16.031Z INFO webdriver: RESULT true
+2026-05-22T17:17:16.031Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-22T17:17:16.031Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:16.031Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-22T17:17:16.349Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000059',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000059'
+}
+2026-05-22T17:17:16.357Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000059")
+2026-05-22T17:17:16.358Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000059/displayed
+2026-05-22T17:17:16.397Z INFO webdriver: RESULT true
+All element all present on drawer screen
+2026-05-22T17:17:16.397Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-22T17:17:16.398Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:16.398Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-22T17:17:16.666Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000059',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000059'
+}
+2026-05-22T17:17:16.675Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000059")
+2026-05-22T17:17:16.676Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000059/displayed
+2026-05-22T17:17:16.703Z INFO webdriver: RESULT true
+2026-05-22T17:17:16.704Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']")
+2026-05-22T17:17:16.704Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:16.704Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log In']"}
+2026-05-22T17:17:17.030Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a0f-ffff-ffff00000059',
+  ELEMENT: '00000000-0000-0a0f-ffff-ffff00000059'
+}
+2026-05-22T17:17:17.033Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a0f-ffff-ffff00000059")
+2026-05-22T17:17:17.033Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000059/displayed
+2026-05-22T17:17:17.067Z INFO webdriver: RESULT true
+2026-05-22T17:17:17.068Z INFO webdriver: COMMAND elementClick("00000000-0000-0a0f-ffff-ffff00000059")
+2026-05-22T17:17:17.068Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a0f-ffff-ffff00000059/click
+2026-05-22T17:17:17.068Z INFO webdriver: DATA {}
+2026-05-22T17:17:17.125Z INFO webdriver: RESULT null
+Clicked btn login
+2026-05-22T17:17:17.125Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/nameET")
+2026-05-22T17:17:17.125Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:17.125Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/nameET"}
+2026-05-22T17:17:18.014Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a11-ffff-ffff0000017c',
+  ELEMENT: '00000000-0000-0a11-ffff-ffff0000017c'
+}
+2026-05-22T17:17:18.016Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a11-ffff-ffff0000017c")
+2026-05-22T17:17:18.016Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff0000017c/displayed
+2026-05-22T17:17:18.042Z INFO webdriver: RESULT true
+2026-05-22T17:17:18.042Z INFO webdriver: COMMAND elementClear("00000000-0000-0a11-ffff-ffff0000017c")
+2026-05-22T17:17:18.042Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff0000017c/clear
+2026-05-22T17:17:18.042Z INFO webdriver: DATA {}
+2026-05-22T17:17:18.091Z INFO webdriver: RESULT null
+2026-05-22T17:17:18.091Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0a11-ffff-ffff0000017c", "visual@example.com")
+2026-05-22T17:17:18.091Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff0000017c/value
+2026-05-22T17:17:18.092Z INFO webdriver: DATA {"text":"visual@example.com"}
+2026-05-22T17:17:18.611Z INFO webdriver: RESULT null
+2026-05-22T17:17:18.612Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/passwordET")
+2026-05-22T17:17:18.612Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:18.612Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/passwordET"}
+2026-05-22T17:17:19.139Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a11-ffff-ffff00000181',
+  ELEMENT: '00000000-0000-0a11-ffff-ffff00000181'
+}
+2026-05-22T17:17:19.147Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a11-ffff-ffff00000181")
+2026-05-22T17:17:19.148Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff00000181/displayed
+2026-05-22T17:17:19.189Z INFO webdriver: RESULT true
+2026-05-22T17:17:19.189Z INFO webdriver: COMMAND elementClear("00000000-0000-0a11-ffff-ffff00000181")
+2026-05-22T17:17:19.189Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff00000181/clear
+2026-05-22T17:17:19.190Z INFO webdriver: DATA {}
+2026-05-22T17:17:19.229Z INFO webdriver: RESULT null
+2026-05-22T17:17:19.229Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-0a11-ffff-ffff00000181", "<Screenshot[base64]>")
+2026-05-22T17:17:19.229Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff00000181/value
+2026-05-22T17:17:19.229Z INFO webdriver: DATA {"text":"10203040"}
+2026-05-22T17:17:19.762Z INFO webdriver: RESULT null
+2026-05-22T17:17:19.763Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/loginBtn")
+2026-05-22T17:17:19.764Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:19.764Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/loginBtn"}
+2026-05-22T17:17:20.308Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a11-ffff-ffff00000186',
+  ELEMENT: '00000000-0000-0a11-ffff-ffff00000186'
+}
+2026-05-22T17:17:20.315Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a11-ffff-ffff00000186")
+2026-05-22T17:17:20.316Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff00000186/displayed
+2026-05-22T17:17:20.364Z INFO webdriver: RESULT true
+2026-05-22T17:17:20.364Z INFO webdriver: COMMAND elementClick("00000000-0000-0a11-ffff-ffff00000186")
+2026-05-22T17:17:20.364Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a11-ffff-ffff00000186/click
+2026-05-22T17:17:20.364Z INFO webdriver: DATA {}
+2026-05-22T17:17:20.463Z INFO webdriver: RESULT null
+2026-05-22T17:17:20.463Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T17:17:20.463Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:20.463Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T17:17:21.618Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001c9'
+}
+2026-05-22T17:17:21.620Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001c9")
+2026-05-22T17:17:21.620Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001c9/displayed
+2026-05-22T17:17:21.663Z INFO webdriver: RESULT true
+2026-05-22T17:17:21.663Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/menuIV")
+2026-05-22T17:17:21.664Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:21.664Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/menuIV"}
+2026-05-22T17:17:21.721Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001c9',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001c9'
+}
+2026-05-22T17:17:21.723Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001c9")
+2026-05-22T17:17:21.723Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001c9/displayed
+2026-05-22T17:17:21.769Z INFO webdriver: RESULT true
+2026-05-22T17:17:21.769Z INFO webdriver: COMMAND elementClick("00000000-0000-0a13-ffff-ffff000001c9")
+2026-05-22T17:17:21.769Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001c9/click
+2026-05-22T17:17:21.769Z INFO webdriver: DATA {}
+2026-05-22T17:17:22.759Z INFO webdriver: RESULT null
+Clicked btn drawer menu
+2026-05-22T17:17:22.760Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']")
+2026-05-22T17:17:22.760Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:22.760Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"}
+2026-05-22T17:17:23.095Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001e7',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001e7'
+}
+2026-05-22T17:17:23.100Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001e7")
+2026-05-22T17:17:23.101Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001e7/displayed
+2026-05-22T17:17:23.122Z INFO webdriver: RESULT true
+2026-05-22T17:17:23.122Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']")
+2026-05-22T17:17:23.122Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:23.122Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='WebView']"}
+2026-05-22T17:17:23.437Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001eb',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001eb'
+}
+2026-05-22T17:17:23.441Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001eb")
+2026-05-22T17:17:23.441Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001eb/displayed
+2026-05-22T17:17:23.466Z INFO webdriver: RESULT true
+2026-05-22T17:17:23.466Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']")
+2026-05-22T17:17:23.466Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:23.466Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='QR Code Scanner']"}
+2026-05-22T17:17:23.800Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001ef',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001ef'
+}
+2026-05-22T17:17:23.804Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001ef")
+2026-05-22T17:17:23.805Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001ef/displayed
+2026-05-22T17:17:23.841Z INFO webdriver: RESULT true
+2026-05-22T17:17:23.842Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']")
+2026-05-22T17:17:23.842Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:23.842Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Geo Location']"}
+2026-05-22T17:17:24.113Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001f3',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001f3'
+}
+2026-05-22T17:17:24.116Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001f3")
+2026-05-22T17:17:24.116Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001f3/displayed
+2026-05-22T17:17:24.136Z INFO webdriver: RESULT true
+2026-05-22T17:17:24.137Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']")
+2026-05-22T17:17:24.137Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:24.137Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Drawing']"}
+2026-05-22T17:17:24.422Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001f7',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001f7'
+}
+2026-05-22T17:17:24.427Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001f7")
+2026-05-22T17:17:24.427Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001f7/displayed
+2026-05-22T17:17:24.457Z INFO webdriver: RESULT true
+2026-05-22T17:17:24.457Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']")
+2026-05-22T17:17:24.457Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:24.458Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='About']"}
+2026-05-22T17:17:24.735Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001fb',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001fb'
+}
+2026-05-22T17:17:24.737Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001fb")
+2026-05-22T17:17:24.737Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001fb/displayed
+2026-05-22T17:17:24.760Z INFO webdriver: RESULT true
+2026-05-22T17:17:24.760Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']")
+2026-05-22T17:17:24.760Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:24.760Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Reset App State']"}
+2026-05-22T17:17:25.008Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001ff',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001ff'
+}
+2026-05-22T17:17:25.011Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001ff")
+2026-05-22T17:17:25.011Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001ff/displayed
+2026-05-22T17:17:25.037Z INFO webdriver: RESULT true
+2026-05-22T17:17:25.038Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']")
+2026-05-22T17:17:25.038Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:25.038Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='FingerPrint']"}
+2026-05-22T17:17:25.315Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000203',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000203'
+}
+2026-05-22T17:17:25.319Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff00000203")
+2026-05-22T17:17:25.319Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000203/displayed
+2026-05-22T17:17:25.349Z INFO webdriver: RESULT true
+2026-05-22T17:17:25.349Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']")
+2026-05-22T17:17:25.349Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:25.349Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Virtual USB']"}
+2026-05-22T17:17:25.645Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000207',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000207'
+}
+2026-05-22T17:17:25.648Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff00000207")
+2026-05-22T17:17:25.648Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000207/displayed
+2026-05-22T17:17:25.667Z INFO webdriver: RESULT true
+2026-05-22T17:17:25.667Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']")
+2026-05-22T17:17:25.668Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:25.668Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Crash app (debug)']"}
+2026-05-22T17:17:25.934Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000020b',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff0000020b'
+}
+2026-05-22T17:17:25.939Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff0000020b")
+2026-05-22T17:17:25.940Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000020b/displayed
+2026-05-22T17:17:25.969Z INFO webdriver: RESULT true
+2026-05-22T17:17:25.970Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log Out']")
+2026-05-22T17:17:25.970Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:25.970Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log Out']"}
+2026-05-22T17:17:26.200Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000020f',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff0000020f'
+}
+2026-05-22T17:17:26.207Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff0000020f")
+2026-05-22T17:17:26.208Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000020f/displayed
+2026-05-22T17:17:26.235Z INFO webdriver: RESULT true
+All element all present on drawer screen
+2026-05-22T17:17:26.235Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']")
+2026-05-22T17:17:26.235Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:26.235Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"}
+2026-05-22T17:17:26.516Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001e7',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001e7'
+}
+2026-05-22T17:17:26.519Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001e7")
+2026-05-22T17:17:26.519Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001e7/displayed
+2026-05-22T17:17:26.539Z INFO webdriver: RESULT true
+2026-05-22T17:17:26.539Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']")
+2026-05-22T17:17:26.539Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:26.539Z INFO webdriver: DATA {"using":"xpath","value":"//android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Catalog']"}
+2026-05-22T17:17:26.791Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001e7',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001e7'
+}
+2026-05-22T17:17:26.799Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a13-ffff-ffff000001e7")
+2026-05-22T17:17:26.800Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001e7/displayed
+2026-05-22T17:17:26.835Z INFO webdriver: RESULT true
+2026-05-22T17:17:26.836Z INFO webdriver: COMMAND elementClick("00000000-0000-0a13-ffff-ffff000001e7")
+2026-05-22T17:17:26.837Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001e7/click
+2026-05-22T17:17:26.837Z INFO webdriver: DATA {}
+2026-05-22T17:17:27.829Z INFO webdriver: RESULT null
+Clicked btn catalog
+2026-05-22T17:17:27.830Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/scrollView")
+2026-05-22T17:17:27.831Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element
+2026-05-22T17:17:27.831Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/scrollView"}
+2026-05-22T17:17:28.074Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001d5',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff000001d5'
+}
+2026-05-22T17:17:28.077Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d5", "xpath", ".//android.view.ViewGroup")
+2026-05-22T17:17:28.077Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d5/elements
+2026-05-22T17:17:28.078Z INFO webdriver: DATA {"using":"xpath","value":".//android.view.ViewGroup"}
+2026-05-22T17:17:28.159Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff000001d6',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff000001d6'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000211',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000211'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000021c',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000021c'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000220',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000220'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000227',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000227'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000022b',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000022b'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000232',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000232'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000236',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000236'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000023d',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000023d'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000248',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000248'
+  }
+]
+2026-05-22T17:17:28.174Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:28.174Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/element
+2026-05-22T17:17:28.174Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:28.198Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000212',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000212'
+}
+2026-05-22T17:17:28.200Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-22T17:17:28.200Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/element
+2026-05-22T17:17:28.200Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-22T17:17:28.224Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000213',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000213'
+}
+2026-05-22T17:17:28.227Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/priceTV")
+2026-05-22T17:17:28.227Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/element
+2026-05-22T17:17:28.228Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/priceTV"}
+2026-05-22T17:17:28.257Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000214',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000214'
+}
+2026-05-22T17:17:28.259Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/rattingV")
+2026-05-22T17:17:28.259Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/element
+2026-05-22T17:17:28.259Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/rattingV"}
+2026-05-22T17:17:28.292Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+}
+2026-05-22T17:17:28.294Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:28.295Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/elements
+2026-05-22T17:17:28.295Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:28.332Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000212',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000212'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000021d',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000021d'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000228',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000228'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000233',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000233'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000023e',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000023e'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000249',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000249'
+  }
+]
+2026-05-22T17:17:28.342Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-22T17:17:28.343Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/elements
+2026-05-22T17:17:28.343Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-22T17:17:28.388Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000213',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000213'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000021e',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000021e'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000229',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000229'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000234',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000234'
+  }
+]
+2026-05-22T17:17:28.392Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/priceTV")
+2026-05-22T17:17:28.392Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/elements
+2026-05-22T17:17:28.392Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/priceTV"}
+2026-05-22T17:17:28.437Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000214',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000214'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000021f',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000021f'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000022a',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000022a'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000235',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000235'
+  }
+]
+2026-05-22T17:17:28.443Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/rattingV")
+2026-05-22T17:17:28.443Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/elements
+2026-05-22T17:17:28.443Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/rattingV"}
+2026-05-22T17:17:28.488Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000220',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000220'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000022b',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000022b'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000236',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000236'
+  }
+]
+2026-05-22T17:17:28.495Z INFO webdriver: COMMAND getElementText("00000000-0000-0a13-ffff-ffff00000213")
+2026-05-22T17:17:28.495Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000213/text
+2026-05-22T17:17:28.531Z INFO webdriver: RESULT Sauce Labs Backpack
+2026-05-22T17:17:28.531Z INFO webdriver: COMMAND getElementText("00000000-0000-0a13-ffff-ffff00000214")
+2026-05-22T17:17:28.531Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000214/text
+2026-05-22T17:17:28.582Z INFO webdriver: RESULT $ 25.8
+2026-05-22T17:17:28.582Z INFO webdriver: COMMAND getElementAttribute("00000000-0000-0a13-ffff-ffff00000212", "content-desc")
+2026-05-22T17:17:28.582Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000212/attribute/content-desc
+2026-05-22T17:17:28.605Z INFO webdriver: RESULT Product Image
+2026-05-22T17:17:28.605Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff000001d6", "id", "com.saucelabs.mydemoapp.android:id/rattingV")
+2026-05-22T17:17:28.605Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff000001d6/elements
+2026-05-22T17:17:28.605Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/rattingV"}
+2026-05-22T17:17:28.642Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000220',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000220'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff0000022b',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff0000022b'
+  },
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000236',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000236'
+  }
+]
+2026-05-22T17:17:28.646Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:28.646Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/element
+2026-05-22T17:17:28.646Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:28.673Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000212',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000212'
+}
+2026-05-22T17:17:28.678Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-22T17:17:28.678Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/element
+2026-05-22T17:17:28.678Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-22T17:17:28.716Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000213',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000213'
+}
+2026-05-22T17:17:28.718Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/priceTV")
+2026-05-22T17:17:28.718Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/element
+2026-05-22T17:17:28.718Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/priceTV"}
+2026-05-22T17:17:28.752Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000214',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000214'
+}
+2026-05-22T17:17:28.755Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/rattingV")
+2026-05-22T17:17:28.756Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/element
+2026-05-22T17:17:28.756Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/rattingV"}
+2026-05-22T17:17:28.797Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+  ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+}
+2026-05-22T17:17:28.799Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:28.799Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/elements
+2026-05-22T17:17:28.800Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:28.839Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000212',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000212'
+  }
+]
+2026-05-22T17:17:28.841Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/titleTV")
+2026-05-22T17:17:28.842Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/elements
+2026-05-22T17:17:28.842Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/titleTV"}
+2026-05-22T17:17:28.869Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000213',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000213'
+  }
+]
+2026-05-22T17:17:28.872Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/priceTV")
+2026-05-22T17:17:28.872Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/elements
+2026-05-22T17:17:28.873Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/priceTV"}
+2026-05-22T17:17:28.899Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000214',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000214'
+  }
+]
+2026-05-22T17:17:28.903Z INFO webdriver: COMMAND findElementsFromElement("00000000-0000-0a13-ffff-ffff00000211", "id", "com.saucelabs.mydemoapp.android:id/rattingV")
+2026-05-22T17:17:28.904Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000211/elements
+2026-05-22T17:17:28.904Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/rattingV"}
+2026-05-22T17:17:28.947Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a13-ffff-ffff00000215',
+    ELEMENT: '00000000-0000-0a13-ffff-ffff00000215'
+  }
+]
+2026-05-22T17:17:28.950Z INFO webdriver: COMMAND getElementText("00000000-0000-0a13-ffff-ffff00000213")
+2026-05-22T17:17:28.950Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000213/text
+2026-05-22T17:17:28.993Z INFO webdriver: RESULT Sauce Labs Backpack
+2026-05-22T17:17:28.994Z INFO webdriver: COMMAND getElementText("00000000-0000-0a13-ffff-ffff00000214")
+2026-05-22T17:17:28.995Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000214/text
+2026-05-22T17:17:29.087Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:29.087Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000214/text
+2026-05-22T17:17:29.617Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:29.617Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000214/text
+2026-05-22T17:17:30.626Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:30.626Z INFO webdriver: [GET] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000214/text
+2026-05-22T17:17:30.633Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000215", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:30.633Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000215/element
+2026-05-22T17:17:30.634Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:30.644Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:30.644Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000215/element
+2026-05-22T17:17:30.644Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:31.180Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:31.180Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000215/element
+2026-05-22T17:17:31.180Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:32.203Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:32.204Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000215/element
+2026-05-22T17:17:32.204Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:32.213Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff0000021c", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:32.213Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000021c/element
+2026-05-22T17:17:32.213Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:32.219Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:32.219Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000021c/element
+2026-05-22T17:17:32.219Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:32.738Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:32.739Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000021c/element
+2026-05-22T17:17:32.739Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:33.759Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:33.759Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000021c/element
+2026-05-22T17:17:33.759Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:33.766Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000220", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:33.767Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000220/element
+2026-05-22T17:17:33.767Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:33.773Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:33.773Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000220/element
+2026-05-22T17:17:33.773Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:34.293Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:34.294Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000220/element
+2026-05-22T17:17:34.294Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:35.316Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:35.316Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000220/element
+2026-05-22T17:17:35.316Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:35.322Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000227", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:35.322Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000227/element
+2026-05-22T17:17:35.323Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:35.328Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:35.328Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000227/element
+2026-05-22T17:17:35.328Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:35.837Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:35.837Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000227/element
+2026-05-22T17:17:35.837Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:36.851Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:36.852Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000227/element
+2026-05-22T17:17:36.852Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:36.861Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff0000022b", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:36.861Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000022b/element
+2026-05-22T17:17:36.861Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:36.866Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:36.866Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000022b/element
+2026-05-22T17:17:36.866Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:37.384Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:37.384Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000022b/element
+2026-05-22T17:17:37.385Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:38.398Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:38.398Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000022b/element
+2026-05-22T17:17:38.398Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:38.404Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000232", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:38.405Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000232/element
+2026-05-22T17:17:38.405Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:38.410Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:38.411Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000232/element
+2026-05-22T17:17:38.411Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:38.918Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:38.918Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000232/element
+2026-05-22T17:17:38.918Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:39.940Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:39.940Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000232/element
+2026-05-22T17:17:39.941Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:39.950Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000236", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:39.950Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000236/element
+2026-05-22T17:17:39.950Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:39.960Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:39.960Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000236/element
+2026-05-22T17:17:39.960Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:40.477Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:40.477Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000236/element
+2026-05-22T17:17:40.478Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:41.499Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:41.499Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000236/element
+2026-05-22T17:17:41.499Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:41.510Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff0000023d", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:41.510Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000023d/element
+2026-05-22T17:17:41.510Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:41.516Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:41.516Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000023d/element
+2026-05-22T17:17:41.516Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:42.037Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:42.037Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000023d/element
+2026-05-22T17:17:42.037Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:43.060Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:43.061Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff0000023d/element
+2026-05-22T17:17:43.061Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:43.067Z INFO webdriver: COMMAND findElementFromElement("00000000-0000-0a13-ffff-ffff00000248", "id", "com.saucelabs.mydemoapp.android:id/productIV")
+2026-05-22T17:17:43.068Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000248/element
+2026-05-22T17:17:43.068Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:43.078Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:43.078Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000248/element
+2026-05-22T17:17:43.078Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:43.592Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:43.592Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000248/element
+2026-05-22T17:17:43.592Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:44.611Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:44.611Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/element/00000000-0000-0a13-ffff-ffff00000248/element
+2026-05-22T17:17:44.611Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productIV"}
+2026-05-22T17:17:44.618Z INFO webdriver: COMMAND executeScript("mobile: scrollGesture", <object>)
+2026-05-22T17:17:44.618Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync
+2026-05-22T17:17:44.618Z INFO webdriver: DATA {"script":"mobile: scrollGesture","args":[{"left":100,"top":300,"width":800,"height":1400,"direction":"down","percent":0.7}]}
+2026-05-22T17:17:44.625Z INFO webdriver: Retrying 1/3
+2026-05-22T17:17:44.625Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync
+2026-05-22T17:17:44.625Z INFO webdriver: DATA {"script":"mobile: scrollGesture","args":[{"left":100,"top":300,"width":800,"height":1400,"direction":"down","percent":0.7}]}
+2026-05-22T17:17:45.139Z INFO webdriver: Retrying 2/3
+2026-05-22T17:17:45.140Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync
+2026-05-22T17:17:45.140Z INFO webdriver: DATA {"script":"mobile: scrollGesture","args":[{"left":100,"top":300,"width":800,"height":1400,"direction":"down","percent":0.7}]}
+2026-05-22T17:17:46.156Z INFO webdriver: Retrying 3/3
+2026-05-22T17:17:46.156Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync
+2026-05-22T17:17:46.156Z INFO webdriver: DATA {"script":"mobile: scrollGesture","args":[{"left":100,"top":300,"width":800,"height":1400,"direction":"down","percent":0.7}]}
+Scroll failed: unknown error: WebDriverError: 'POST /appium/gestures/scroll' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "execute/sync" with method "POST"
+    at FetchRequest._request (file:///C:/Code/Github/mobile-test/node_modules/webdriver/build/node.js:2229:19)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at Browser.wrapCommandFn (file:///C:/Code/Github/mobile-test/node_modules/@wdio/utils/build/index.js:982:23)
+    at Browser.wrapCommandFn (file:///C:/Code/Github/mobile-test/node_modules/@wdio/utils/build/index.js:982:23)
+    at ProductMenu.getAllProductItems (C:\Code\Github\mobile-test\pages\pageProduct\ProductMenu.ts:168:25)
+    at C:\Code\Github\mobile-test\tests\android\TC-001.spec.ts:29:17
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3045:9
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2537:11
+    at TimeoutManager.withRunnable (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:1816:14)
+    at TestInfoImpl._runWithTimeout (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2535:7)
+    at C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3043:7
+    at WorkerMain._runTest (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:3016:5)
+    at WorkerMain.runTestGroup (C:\Code\Github\mobile-test\node_modules\playwright\lib\worker\workerProcessEntry.js:2911:9)
+    at process.<anonymous> (C:\Code\Github\mobile-test\node_modules\playwright\lib\common\index.js:1955:25) {
+  url: URL {
+    href: 'http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync',
+    origin: 'http://127.0.0.1:4723',
+    protocol: 'http:',
+    username: '',
+    password: '',
+    host: '127.0.0.1:4723',
+    hostname: '127.0.0.1',
+    port: '4723',
+    pathname: '/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync',
+    search: '',
+    searchParams: URLSearchParams {},
+    hash: ''
+  },
+  opts: {
+    method: 'POST',
+    redirect: 'follow',
+    signal: AbortSignal { aborted: false },
+    body: '{"script":"mobile: scrollGesture","args":[{"left":100,"top":300,"width":800,"height":1400,"direction":"down","percent":0.7}]}',
+    headers: Headers {
+      'Content-Type': 'application/json; charset=utf-8',
+      Connection: 'keep-alive',
+      Accept: 'application/json',
+      'User-Agent': 'webdriver/9.27.0',
+      'Content-Length': '125'
+    },
+    dispatcher: Agent {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(nodejs.stream.destroyed)]: false,
+      [Symbol(onDestroyed)]: null,
+      [Symbol(closed)]: false,
+      [Symbol(onClosed)]: [],
+      [Symbol(webSocketOptions)]: {},
+      [Symbol(dispatch interceptors)]: [Array],
+      [Symbol(options)]: [Object],
+      [Symbol(maxRedirections)]: 0,
+      [Symbol(factory)]: [Function: defaultFactory],
+      [Symbol(clients)]: [Map],
+      [Symbol(onDrain)]: [Function (anonymous)],
+      [Symbol(onConnect)]: [Function (anonymous)],
+      [Symbol(onDisconnect)]: [Function (anonymous)],
+      [Symbol(onConnectionError)]: [Function (anonymous)],
+      [Symbol(Intercepted Dispatch)]: [Function: Intercept]
+    }
+  }
+}
+[
+  Map(4) {
+    'image' => 'Product Image',
+    'title' => 'Sauce Labs Backpack',
+    'price' => '$ 25.8',
+    'rating' => true
+  }
+]
+2026-05-22T17:17:46.192Z INFO webdriver: COMMAND executeScript("mobile: getCurrentPackage", <object>)
+2026-05-22T17:17:46.192Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/execute/sync
+2026-05-22T17:17:46.192Z INFO webdriver: DATA {"script":"mobile: getCurrentPackage","args":[{}]}
+2026-05-22T17:17:46.285Z INFO webdriver: RESULT com.saucelabs.mydemoapp.android
+2026-05-22T17:17:46.285Z INFO webdriver: COMMAND terminateApp("com.saucelabs.mydemoapp.android")
+2026-05-22T17:17:46.285Z INFO webdriver: [POST] http://127.0.0.1:4723/session/f65ef381-8312-4ef0-9259-e00ece18633f/appium/device/terminate_app
+2026-05-22T17:17:46.286Z INFO webdriver: DATA {"appId":"com.saucelabs.mydemoapp.android"}
+2026-05-22T17:17:46.783Z INFO webdriver: RESULT true

@@ -1,0 +1,99 @@
+2026-05-22T17:53:45.935Z INFO webdriver: Initiate new session using the WebDriver protocol
+2026-05-22T17:53:45.939Z INFO @wdio/utils: Connecting to existing driver at http://127.0.0.1:4723/
+2026-05-22T17:53:45.945Z INFO webdriver: [POST] http://127.0.0.1:4723/session
+Start Test
+2026-05-22T17:54:01.729Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/mTvTitle")
+2026-05-22T17:54:01.730Z INFO webdriver: [POST] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element
+2026-05-22T17:54:01.730Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/mTvTitle"}
+2026-05-22T17:54:03.088Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a70-ffff-ffff0000001a',
+  ELEMENT: '00000000-0000-0a70-ffff-ffff0000001a'
+}
+2026-05-22T17:54:03.104Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001a")
+2026-05-22T17:54:03.105Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001a/displayed
+2026-05-22T17:54:03.585Z INFO webdriver: RESULT true
+2026-05-22T17:54:03.587Z INFO webdriver: COMMAND findElement("id", "com.saucelabs.mydemoapp.android:id/productTV")
+2026-05-22T17:54:03.587Z INFO webdriver: [POST] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element
+2026-05-22T17:54:03.587Z INFO webdriver: DATA {"using":"id","value":"com.saucelabs.mydemoapp.android:id/productTV"}
+2026-05-22T17:54:03.655Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-0a70-ffff-ffff0000001e',
+  ELEMENT: '00000000-0000-0a70-ffff-ffff0000001e'
+}
+2026-05-22T17:54:03.660Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:03.660Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:03.759Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:03.759Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:04.272Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:04.272Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:05.294Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:05.294Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:05.311Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:05.312Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:05.324Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:05.324Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:05.852Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:05.852Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:06.865Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:06.866Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:06.888Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:06.889Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:06.902Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:06.903Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:07.416Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:07.416Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:08.440Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:08.440Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:08.456Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:08.458Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:08.468Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:08.468Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:08.989Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:08.989Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:10.003Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:10.003Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:10.017Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:10.018Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:10.024Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:10.024Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:10.540Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:10.540Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:11.551Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:11.552Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:11.569Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:11.569Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:11.575Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:11.575Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:12.088Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:12.089Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:13.110Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:13.110Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:13.117Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:13.118Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:13.124Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:13.125Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:13.639Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:13.639Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:14.659Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:14.659Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:14.691Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:14.692Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:14.706Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:14.707Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:15.220Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:15.220Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:16.243Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:16.243Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:16.258Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:16.259Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:16.271Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:16.271Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:16.791Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:16.792Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:17.815Z INFO webdriver: Retrying 3/3
+2026-05-22T17:54:17.815Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:17.830Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-0a70-ffff-ffff0000001e")
+2026-05-22T17:54:17.831Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:17.837Z INFO webdriver: Retrying 1/3
+2026-05-22T17:54:17.837Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed
+2026-05-22T17:54:18.350Z INFO webdriver: Retrying 2/3
+2026-05-22T17:54:18.350Z INFO webdriver: [GET] http://127.0.0.1:4723/session/492faef2-c647-4c68-860b-974ed3f6864b/element/00000000-0000-0a70-ffff-ffff0000001e/displayed

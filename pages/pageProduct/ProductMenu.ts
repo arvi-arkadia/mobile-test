@@ -31,6 +31,11 @@ export default class ProductMenu extends BasePage{
     filterPriceAsc = 'id:com.saucelabs.mydemoapp.android:id/menuPriceAscIV';
     filterPriceDesc = 'id:com.saucelabs.mydemoapp.android:id/menuPriceDscIV';
 
+    async clickCart(){
+      await this.isPresent(this.btnCart);
+      await this.click(this.btnCart);
+      console.log('Clicked btn cart')
+    }
     async clickFilter(filter: string){
       await this.isPresent(this.btnSort);
       await this.click(this.btnSort);
@@ -264,44 +269,52 @@ export default class ProductMenu extends BasePage{
         expectedTitle: string,
         maxScroll: number = 15
       ): Promise<boolean> {
-    
+      
         let direction: 'down' | 'up' = 'down';
-    
+      
         const scrollView = await this.driver.$(this.scrollView);
-    
+      
         for (let i = 0; i < maxScroll; i++) {
-    
-          // get visible product titles
-          const titles = await this.driver.$$(
-            'id:com.saucelabs.mydemoapp.android:id/titleTV'
+      
+          // get all visible product containers
+          const productContainers = await this.driver.$$(
+            '//androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup'
           );
-    
+      
           // validate title
-          for (const item of titles) {
-    
-            const text = await item.getText();
-    
-            console.log(`VISIBLE ITEM : ${text}`);
-    
-            if (text.trim() === expectedTitle.trim()) {
-              
-              console.log(`FOUND PRODUCT : ${text}`);
-              
-               // get parent container
-              const parent = await item.$('xpath:..');
-
-              // click parent container
-              await parent.click();
-    
-              return true;
+          for (const container of productContainers) {
+      
+            try {
+      
+              const title = await container.$(
+                'id:com.saucelabs.mydemoapp.android:id/titleTV'
+              );
+      
+              const text = await title.getText();
+      
+              console.log(`VISIBLE ITEM : ${text}`);
+      
+              if (text.trim() === expectedTitle.trim()) {
+      
+                console.log(`FOUND PRODUCT : ${text}`);
+      
+                // click product container
+                await container.click();
+      
+                return true;
+              }
+      
+            } catch (error) {
+      
+              console.log('INVALID PRODUCT CONTAINER');
             }
           }
-    
+      
           // scroll
           let canScroll = false;
-    
+      
           try {
-    
+      
             canScroll = await this.driver.execute(
               'mobile: scrollGesture',
               {
@@ -310,38 +323,38 @@ export default class ProductMenu extends BasePage{
                 percent: 0.7
               }
             );
-    
+      
             await this.driver.pause(1000);
-    
+      
           } catch (error) {
-    
+      
             console.log('Scroll Error : ', error);
-    
+      
             return false;
           }
-    
+      
           /**
            * if cannot scroll anymore:
-           * bottom -> change to up
-           * top -> change to down
+           * bottom -> scroll up
+           * top -> stop
            */
           if (!canScroll) {
-    
+      
             if (direction === 'down') {
-    
+      
               console.log('REACH BOTTOM -> SCROLL UP');
-    
+      
               direction = 'up';
-    
+      
             } else {
-    
+      
               console.log('REACH TOP -> STOP SEARCH');
-    
+      
               break;
             }
           }
         }
-    
+      
         return false;
       }
 

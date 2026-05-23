@@ -1,0 +1,6 @@
+2026-05-23T02:05:43.767Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T02:05:44.268Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T02:05:48.141Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T02:05:48.936Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-23T02:05:51.442Z WARN webdriver: WebDriverError: Could not proxy command to the remote server. Original error: socket hang up when running "element" with method "POST"
+2026-05-23T02:05:51.446Z WARN webdriver: WebDriverError: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details when running "element" with method "POST"
