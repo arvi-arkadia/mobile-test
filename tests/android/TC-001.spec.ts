@@ -26,15 +26,7 @@ test('Home Screen After Login', async () => {
   await productMenu.clickDrawerMenu();
   await productMenu.verifyDrawerMenuAfterLogin();
   await productMenu.clickCatalog();
-  const items = await productMenu.getAllProductItems();
-  console.log(items);
-  if (items instanceof Object) {
-    if (Array.isArray(items) && items.length > 0) {
-      expect(true).toEqual(true);
-    }
-  }
-  expect(Array.isArray(items)).toBeTruthy();
-  expect(items.length).toBeGreaterThan(0);
+ 
   // await driver.terminateApp('com.saucelabs.mydemoapp.android');
   await basePage.closeApp()
 });

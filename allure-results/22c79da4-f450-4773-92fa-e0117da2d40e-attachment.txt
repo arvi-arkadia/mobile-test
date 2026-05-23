@@ -1,0 +1,4 @@
+2026-05-22T18:24:58.250Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T18:25:12.355Z WARN webdriver: WebDriverError: The instrumentation process cannot be initialized. Make sure the application under test does not crash and investigate the logcat output. when running "http://127.0.0.1:4723/session" with method "POST"
+2026-05-22T18:25:31.397Z WARN webdriver: Request encountered a stale element - terminating request
+2026-05-22T18:25:31.489Z WARN webdriver: Request encountered a stale element - terminating request

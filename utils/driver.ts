@@ -24,11 +24,17 @@ export async function createDriver() {
 
       'appium:autoGrantPermissions': true,
       
+      // IMPORTANT
+      'appium:appPackage': 'com.saucelabs.mydemoapp.android',
+      'appium:appActivity':
+        'com.saucelabs.mydemoapp.android.view.activities.SplashActivity',
+
+      // stability
+      'appium:noReset': true,
       'appium:newCommandTimeout': 300,
-      'appium:uiautomator2ServerLaunchTimeout': 120000,
-      'appium:adbExecTimeout': 120000,
-      'appium:androidInstallTimeout': 120000,
-      'appium:disableWindowAnimation': true
+      'appium:adbExecTimeout': 1200000,
+      'appium:uiautomator2ServerLaunchTimeout': 1200000,
+      'appium:appWaitDuration': 1200000
     }
   });
 

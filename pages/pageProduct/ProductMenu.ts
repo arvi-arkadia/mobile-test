@@ -25,7 +25,35 @@ export default class ProductMenu extends BasePage{
     itemLogOut = "xpath://android.widget.TextView[@resource-id='com.saucelabs.mydemoapp.android:id/itemTV' and @text='Log Out']"
     //
     scrollView = 'id:com.saucelabs.mydemoapp.android:id/scrollView';
+    //
+    fitlerNameAsc = 'id:com.saucelabs.mydemoapp.android:id/menuNameAscIV';
+    filterNameDesc = 'id:com.saucelabs.mydemoapp.android:id/menuNameDesIV';
+    filterPriceAsc = 'id:com.saucelabs.mydemoapp.android:id/menuPriceAscIV';
+    filterPriceDesc = 'id:com.saucelabs.mydemoapp.android:id/menuPriceDscIV';
 
+    async clickFilter(filter: string){
+      await this.isPresent(this.btnSort);
+      await this.click(this.btnSort);
+      console.log('CLicked btn sort filter');
+      this.verifyFilterSort();
+
+      switch(filter){
+        case "name-asc":
+          await this.click(this.fitlerNameAsc);
+          break;
+          case "name-desc":
+          await this.click(this.filterNameDesc);
+          break;
+          case "price-asc":
+          await this.click(this.filterPriceAsc);
+          break;
+          case "price-asc":
+          await this.click(this.filterPriceDesc);
+          break;
+        default:
+          break;
+    }
+    }
     async clickDrawerMenu(){
         await this.isPresent(this.btnBurgerMenu)
         await this.click(this.btnBurgerMenu)
@@ -41,6 +69,23 @@ export default class ProductMenu extends BasePage{
         await this.click(this.itemLogIn)
         console.log("Clicked btn login")
     }
+    async clickLogout(){
+      await this.clickDrawerMenu()
+      await this.isDisplayed(this.itemLogOut);
+      await this.click(this.itemLogOut)
+      console.log("Clicked btn catalog")
+  }
+  async verifyFilterSort(){
+      await this.isPresent(this.fitlerNameAsc);
+      await this.isPresent(this.filterNameDesc);
+      await this.isPresent(this.filterPriceAsc);
+      await this.isPresent(this.filterPriceDesc);
+
+      await this.isDisplayed(this.fitlerNameAsc)
+      await this.isDisplayed(this.filterNameDesc)
+      await this.isDisplayed(this.filterPriceAsc)
+      await this.isDisplayed(this.filterPriceDesc)
+  }
     async verifyProductMenu(){
         await this.isPresent(this.logoMenu);
         await this.isPresent(this.txtProduct);
@@ -214,4 +259,149 @@ export default class ProductMenu extends BasePage{
     
         return productList;
       }
+
+      async scrollUntilProductFound(
+        expectedTitle: string,
+        maxScroll: number = 15
+      ): Promise<boolean> {
+    
+        let direction: 'down' | 'up' = 'down';
+    
+        const scrollView = await this.driver.$(this.scrollView);
+    
+        for (let i = 0; i < maxScroll; i++) {
+    
+          // get visible product titles
+          const titles = await this.driver.$$(
+            'id:com.saucelabs.mydemoapp.android:id/titleTV'
+          );
+    
+          // validate title
+          for (const item of titles) {
+    
+            const text = await item.getText();
+    
+            console.log(`VISIBLE ITEM : ${text}`);
+    
+            if (text.trim() === expectedTitle.trim()) {
+              
+              console.log(`FOUND PRODUCT : ${text}`);
+              
+               // get parent container
+              const parent = await item.$('xpath:..');
+
+              // click parent container
+              await parent.click();
+    
+              return true;
+            }
+          }
+    
+          // scroll
+          let canScroll = false;
+    
+          try {
+    
+            canScroll = await this.driver.execute(
+              'mobile: scrollGesture',
+              {
+                elementId: scrollView.elementId,
+                direction,
+                percent: 0.7
+              }
+            );
+    
+            await this.driver.pause(1000);
+    
+          } catch (error) {
+    
+            console.log('Scroll Error : ', error);
+    
+            return false;
+          }
+    
+          /**
+           * if cannot scroll anymore:
+           * bottom -> change to up
+           * top -> change to down
+           */
+          if (!canScroll) {
+    
+            if (direction === 'down') {
+    
+              console.log('REACH BOTTOM -> SCROLL UP');
+    
+              direction = 'up';
+    
+            } else {
+    
+              console.log('REACH TOP -> STOP SEARCH');
+    
+              break;
+            }
+          }
+        }
+    
+        return false;
+      }
+
+    txtTitle = 'id:com.saucelabs.mydemoapp.android:id/titleTV';
+
+    /**
+     * Get all visible product titles
+     * without scrolling
+     */
+    async getVisibleTitles(): Promise<string[]> {
+
+      const elements = await this.driver.$$(this.txtTitle);
+
+      const titles: string[] = [];
+
+      for (const item of elements) {
+
+        const text = await item.getText();
+
+        if (text.trim() !== '') {
+          titles.push(text.trim());
+        }
+      }
+
+      return titles;
+    }
+
+    /**
+     * Validate ascending sort
+     */
+    async validateSortAscending(): Promise<boolean> {
+
+      const actualTitles = await this.getVisibleTitles();
+
+      const expectedTitles = [...actualTitles].sort(
+        (a, b) => a.localeCompare(b)
+      );
+
+      console.log('ACTUAL : ', actualTitles);
+      console.log('EXPECTED ASC : ', expectedTitles);
+
+      return JSON.stringify(actualTitles) ===
+        JSON.stringify(expectedTitles);
+    }
+
+    /**
+     * Validate descending sort
+     */
+    async validateSortDescending(): Promise<boolean> {
+
+      const actualTitles = await this.getVisibleTitles();
+
+      const expectedTitles = [...actualTitles].sort(
+        (a, b) => b.localeCompare(a)
+      );
+
+      console.log('ACTUAL : ', actualTitles);
+      console.log('EXPECTED DESC : ', expectedTitles);
+
+      return JSON.stringify(actualTitles) ===
+        JSON.stringify(expectedTitles);
+    }
 }

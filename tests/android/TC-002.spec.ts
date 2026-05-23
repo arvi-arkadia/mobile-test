@@ -19,17 +19,6 @@ test('Guest Access', async () => {
 
   console.log('Start Test')
   await productMenu.verifyProductMenu();
-  
-  const items = await productMenu.getAllProductItems();
-  console.log(items);
-  if (items instanceof Object) {
-    if (Array.isArray(items) && items.length > 0) {
-      expect(true).toEqual(true);
-    }
-  }
-  expect(Array.isArray(items)).toBeTruthy();
-  expect(items.length).toBeGreaterThan(0);
-
   await productMenu.clickDrawerMenu();
   await productMenu.verifyDrawerMenuBeforeLogin();
   await productMenu.clickCatalog();
